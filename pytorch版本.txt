@@ -1,4 +1,0 @@
-pytorch 1.10.2
-Python 3.6.13
-
-pip conda install --upgrade torch
