@@ -57,6 +57,11 @@ python main.py --verify \
 
 
 Most of the arguments have default values and may be regarded as optional. Please refer to `Parser.py` for details.
+
+Example:
+```
+python main.py --verify --dir model_sst_1 --data sst --method backward --p 2 --perturbed_words 1 --version origin --samples 5 --adv --AuxDev
+```
 <!--
 ### Simple example
 
