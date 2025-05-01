@@ -1,0 +1,8 @@
+*.pyc
+.ipynb_checkpoints
+data
+tmp
+log*
+res*
+model*
+

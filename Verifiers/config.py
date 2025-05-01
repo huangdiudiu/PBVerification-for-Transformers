@@ -1,0 +1,2 @@
+use_mean_eps=False
+softMax_flag=False
