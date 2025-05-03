@@ -1,6 +1,6 @@
 #!/bin/bash
 #salloc -p gpu --gpus 2 --time=10:00:00 source activate ml
-salloc --cpus-per-task=4 --mem=64G -p gpu --nodes=1 --gpus 2 -C GPU_MEM:32GB --time=10:00:00
+salloc --cpus-per-task=4 --mem=64G -p gpu --nodes=1 --gpus 1 -C GPU_MEM:32GB --time=10:00:00
 #salloc --nodes=1 --gres=gpu:a100:2 --cpus-per-task=4 --mem=64G --time=10:00:00 -p gpu
 #salloc -p gpu --gpus 1 --mem-per-gpu=8GB --time=10:00:00
 #salloc -p gpu --gpus 1 --mem=8G --time=10:00:00
