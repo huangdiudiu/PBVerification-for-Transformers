@@ -1,0 +1,822 @@
+{
+    "examples": [
+        {
+            "tokens": [
+                "[CLS]",
+                "simply",
+                "awful",
+                ".",
+                ".",
+                "long",
+                "line",
+                "and",
+                "wait",
+                "and",
+                "terrible",
+                "food",
+                ".",
+                "if",
+                "i",
+                "wanted",
+                "a",
+                "french",
+                "fry",
+                "[SEP]"
+            ],
+            "label": 0.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.31203123927116394,
+                    "eps_normalized": 0.4592488706111908
+                },
+                {
+                    "position": 2,
+                    "eps": 0.2581250071525574,
+                    "eps_normalized": 0.18936942517757416
+                },
+                {
+                    "position": 3,
+                    "eps": 0.3043749928474426,
+                    "eps_normalized": 0.5656310319900513
+                }
+            ],
+            "time": 244.118665933609
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "i",
+                "will",
+                "never",
+                "come",
+                "here",
+                "again",
+                ".",
+                ".",
+                ".",
+                "horrible",
+                "service",
+                "and",
+                "mediocre",
+                "cupcakes",
+                ".",
+                "the",
+                "lady",
+                "behind",
+                "[SEP]"
+            ],
+            "label": 0.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.30281248688697815,
+                    "eps_normalized": 0.5188913941383362
+                },
+                {
+                    "position": 2,
+                    "eps": 0.2809374928474426,
+                    "eps_normalized": 0.4028971493244171
+                },
+                {
+                    "position": 3,
+                    "eps": 0.34812501072883606,
+                    "eps_normalized": 0.5251112580299377
+                }
+            ],
+            "time": 211.123929977417
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "do",
+                "not",
+                "eat",
+                "here",
+                ".",
+                "terrible",
+                ".",
+                "[SEP]"
+            ],
+            "label": 0.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.15351562201976776,
+                    "eps_normalized": 0.22756502032279968
+                },
+                {
+                    "position": 2,
+                    "eps": 0.18906250596046448,
+                    "eps_normalized": 0.22935332357883453
+                },
+                {
+                    "position": 3,
+                    "eps": 0.20937499403953552,
+                    "eps_normalized": 0.3394150733947754
+                }
+            ],
+            "time": 43.656079053878784
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "great",
+                "anniversary",
+                "dinner",
+                ".",
+                "just",
+                "##if",
+                "##ia",
+                "##bly",
+                "recommended",
+                "by",
+                "our",
+                "friends",
+                ".",
+                "lovely",
+                "and",
+                "decadent",
+                ".",
+                "we",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.31984373927116394,
+                    "eps_normalized": 0.3706821799278259
+                },
+                {
+                    "position": 2,
+                    "eps": 0.3137499988079071,
+                    "eps_normalized": 0.4937717616558075
+                },
+                {
+                    "position": 3,
+                    "eps": 0.33375000953674316,
+                    "eps_normalized": 0.5927734375
+                }
+            ],
+            "time": 213.7551007270813
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "the",
+                "room",
+                "is",
+                "actually",
+                "ok",
+                ".",
+                "i",
+                "got",
+                "to",
+                "stay",
+                "there",
+                "one",
+                "night",
+                "with",
+                "very",
+                "cheap",
+                "price",
+                ".",
+                "[SEP]"
+            ],
+            "label": 0.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.17578125,
+                    "eps_normalized": 0.28662586212158203
+                },
+                {
+                    "position": 2,
+                    "eps": 0.19109374284744263,
+                    "eps_normalized": 0.31749802827835083
+                },
+                {
+                    "position": 3,
+                    "eps": 0.2121874988079071,
+                    "eps_normalized": 0.37373241782188416
+                }
+            ],
+            "time": 214.32859110832214
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "diner",
+                "food",
+                "done",
+                "at",
+                "a",
+                "typical",
+                "diner",
+                "level",
+                ".",
+                "[SEP]"
+            ],
+            "label": 0.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.08351562172174454,
+                    "eps_normalized": 0.12326537817716599
+                },
+                {
+                    "position": 2,
+                    "eps": 0.11414062231779099,
+                    "eps_normalized": 0.18835300207138062
+                },
+                {
+                    "position": 3,
+                    "eps": 0.11773437261581421,
+                    "eps_normalized": 0.182017520070076
+                }
+            ],
+            "time": 53.3924925327301
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "i",
+                "like",
+                "this",
+                "place",
+                ".",
+                "i",
+                "really",
+                "do",
+                "(",
+                "i",
+                "'",
+                "m",
+                "giving",
+                "it",
+                "four",
+                "star",
+                "after",
+                "all",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.08804687857627869,
+                    "eps_normalized": 0.1508747786283493
+                },
+                {
+                    "position": 2,
+                    "eps": 0.1267968714237213,
+                    "eps_normalized": 0.24328239262104034
+                },
+                {
+                    "position": 3,
+                    "eps": 0.14124999940395355,
+                    "eps_normalized": 0.2220245748758316
+                }
+            ],
+            "time": 205.20894813537598
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "a",
+                "few",
+                "weeks",
+                "ago",
+                "i",
+                "was",
+                "in",
+                "the",
+                "phoenix",
+                "area",
+                "and",
+                "found",
+                "bagel",
+                "nosh",
+                "on",
+                "yelp",
+                ".",
+                "their",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.18062500655651093,
+                    "eps_normalized": 0.33304861187934875
+                },
+                {
+                    "position": 2,
+                    "eps": 0.17031249403953552,
+                    "eps_normalized": 0.3034778833389282
+                },
+                {
+                    "position": 3,
+                    "eps": 0.21453124284744263,
+                    "eps_normalized": 0.3620659112930298
+                }
+            ],
+            "time": 200.11867713928223
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "this",
+                "place",
+                "serves",
+                "the",
+                "best",
+                "boba",
+                "tea",
+                "in",
+                "the",
+                "valley",
+                ".",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.20203125476837158,
+                    "eps_normalized": 0.30022019147872925
+                },
+                {
+                    "position": 2,
+                    "eps": 0.20000000298023224,
+                    "eps_normalized": 0.3170081377029419
+                },
+                {
+                    "position": 3,
+                    "eps": 0.2224999964237213,
+                    "eps_normalized": 0.3578398823738098
+                }
+            ],
+            "time": 68.27626013755798
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "best",
+                "torta",
+                "i",
+                "'",
+                "ve",
+                "ever",
+                "had",
+                ".",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.26218751072883606,
+                    "eps_normalized": 0.277349591255188
+                },
+                {
+                    "position": 2,
+                    "eps": 0.24562500417232513,
+                    "eps_normalized": 0.36762040853500366
+                },
+                {
+                    "position": 3,
+                    "eps": 0.24265624582767487,
+                    "eps_normalized": 0.43151599168777466
+                }
+            ],
+            "time": 46.865126848220825
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "good",
+                "food",
+                "and",
+                "good",
+                "service",
+                ".",
+                "indoor",
+                "was",
+                "a",
+                "bit",
+                "dark",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.18281249701976776,
+                    "eps_normalized": 0.2873327136039734
+                },
+                {
+                    "position": 2,
+                    "eps": 0.1967187523841858,
+                    "eps_normalized": 0.32462209463119507
+                },
+                {
+                    "position": 3,
+                    "eps": 0.1834374964237213,
+                    "eps_normalized": 0.2682231068611145
+                }
+            ],
+            "time": 67.71740698814392
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "my",
+                "wife",
+                "and",
+                "i",
+                "decided",
+                "to",
+                "try",
+                "il",
+                "vino",
+                "cu",
+                "##cina",
+                "and",
+                "wine",
+                "bar",
+                "at",
+                "ali",
+                "##ante",
+                "station",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.18078124523162842,
+                    "eps_normalized": 0.29302677512168884
+                },
+                {
+                    "position": 2,
+                    "eps": 0.1743749976158142,
+                    "eps_normalized": 0.2900664806365967
+                },
+                {
+                    "position": 3,
+                    "eps": 0.18984374403953552,
+                    "eps_normalized": 0.2775903642177582
+                }
+            ],
+            "time": 219.37579107284546
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "get",
+                "the",
+                "salad",
+                "!",
+                "they",
+                "have",
+                "the",
+                "best",
+                "salad",
+                "ever",
+                ".",
+                "i",
+                "'",
+                "ve",
+                "gotten",
+                "take",
+                "out",
+                "several",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.19453124701976776,
+                    "eps_normalized": 0.2967611253261566
+                },
+                {
+                    "position": 2,
+                    "eps": 0.19750000536441803,
+                    "eps_normalized": 0.35149210691452026
+                },
+                {
+                    "position": 3,
+                    "eps": 0.2199999988079071,
+                    "eps_normalized": 0.3532264530658722
+                }
+            ],
+            "time": 211.147367477417
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "solid",
+                "buffet",
+                ".",
+                "hated",
+                "the",
+                "line",
+                ",",
+                "but",
+                "that",
+                "just",
+                "means",
+                "it",
+                "'",
+                "s",
+                "worth",
+                "waiting",
+                "for",
+                ".",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.1203906238079071,
+                    "eps_normalized": 0.10782230645418167
+                },
+                {
+                    "position": 2,
+                    "eps": 0.0891406238079071,
+                    "eps_normalized": 0.16368158161640167
+                },
+                {
+                    "position": 3,
+                    "eps": 0.09968750178813934,
+                    "eps_normalized": 0.18525287508964539
+                }
+            ],
+            "time": 202.53326272964478
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "went",
+                "4",
+                "the",
+                "seafood",
+                "buffet",
+                "on",
+                "friday",
+                ".",
+                "extremely",
+                "disappointed",
+                ",",
+                "should",
+                "have",
+                "been",
+                "called",
+                "crab",
+                "leg",
+                "buffet",
+                "[SEP]"
+            ],
+            "label": 0.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.1502343714237213,
+                    "eps_normalized": 0.22720719873905182
+                },
+                {
+                    "position": 2,
+                    "eps": 0.1599999964237213,
+                    "eps_normalized": 0.2618989944458008
+                },
+                {
+                    "position": 3,
+                    "eps": 0.1665624976158142,
+                    "eps_normalized": 0.3023175895214081
+                }
+            ],
+            "time": 194.01435494422913
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "when",
+                "you",
+                "move",
+                "to",
+                "a",
+                "new",
+                "town",
+                ",",
+                "some",
+                "of",
+                "the",
+                "biggest",
+                "challenges",
+                "are",
+                "finding",
+                "an",
+                "honest",
+                "mechanic",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.1720312535762787,
+                    "eps_normalized": 0.2877224385738373
+                },
+                {
+                    "position": 2,
+                    "eps": 0.17812499403953552,
+                    "eps_normalized": 0.2805606424808502
+                },
+                {
+                    "position": 3,
+                    "eps": 0.23140625655651093,
+                    "eps_normalized": 0.36763736605644226
+                }
+            ],
+            "time": 203.5808355808258
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "very",
+                "pleasantly",
+                "surprised",
+                "!",
+                "we",
+                "had",
+                "driven",
+                "by",
+                "many",
+                ",",
+                "many",
+                "times",
+                "wondering",
+                "what",
+                "exactly",
+                "could",
+                "fit",
+                "in",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.4074999988079071,
+                    "eps_normalized": 0.6355991363525391
+                },
+                {
+                    "position": 2,
+                    "eps": 0.4778124988079071,
+                    "eps_normalized": 0.2550464868545532
+                },
+                {
+                    "position": 3,
+                    "eps": 0.4268749952316284,
+                    "eps_normalized": 0.560640275478363
+                }
+            ],
+            "time": 202.44562244415283
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "this",
+                "is",
+                "another",
+                "one",
+                "of",
+                "those",
+                "little",
+                "specialty",
+                "gift",
+                "stores",
+                "that",
+                "stock",
+                "sets",
+                "apart",
+                ".",
+                "it",
+                "is",
+                "truly",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.19718749821186066,
+                    "eps_normalized": 0.2930223345756531
+                },
+                {
+                    "position": 2,
+                    "eps": 0.18468749523162842,
+                    "eps_normalized": 0.3107275664806366
+                },
+                {
+                    "position": 3,
+                    "eps": 0.25046876072883606,
+                    "eps_normalized": 0.4169657826423645
+                }
+            ],
+            "time": 203.83987498283386
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "this",
+                "was",
+                "our",
+                "first",
+                "time",
+                "to",
+                "metro",
+                ",",
+                "actually",
+                "by",
+                "default",
+                ",",
+                "we",
+                "had",
+                "tried",
+                "to",
+                "go",
+                "to",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.12367187440395355,
+                    "eps_normalized": 0.18377748131752014
+                },
+                {
+                    "position": 2,
+                    "eps": 0.11335937678813934,
+                    "eps_normalized": 0.1882161647081375
+                },
+                {
+                    "position": 3,
+                    "eps": 0.16562500596046448,
+                    "eps_normalized": 0.2637784779071808
+                }
+            ],
+            "time": 199.85595202445984
+        },
+        {
+            "tokens": [
+                "[CLS]",
+                "bento",
+                "box",
+                "for",
+                "2",
+                "is",
+                "a",
+                "great",
+                "deal",
+                "!",
+                "i",
+                "have",
+                "dined",
+                "at",
+                "sushi",
+                "twist",
+                "##er",
+                "for",
+                "long",
+                "[SEP]"
+            ],
+            "label": 1.0,
+            "bounds": [
+                {
+                    "position": 1,
+                    "eps": 0.2264062464237213,
+                    "eps_normalized": 0.31556445360183716
+                },
+                {
+                    "position": 2,
+                    "eps": 0.2264062464237213,
+                    "eps_normalized": 0.3525570034980774
+                },
+                {
+                    "position": 3,
+                    "eps": 0.2503125071525574,
+                    "eps_normalized": 0.4651486873626709
+                }
+            ],
+            "time": 205.09584593772888
+        }
+    ],
+    "minimum": 0.19308594465255738,
+    "average": 0.21091012954711913
+}
