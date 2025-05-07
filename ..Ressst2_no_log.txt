@@ -1,0 +1,102 @@
+Sample 0 
+tokens: [CLS] not everything works , but the average is higher than in mary and most other recent comedies . [SEP] 
+length: 20 
+label: 1 
+Position 1: not 0.33531 
+Position 2: everything 0.33219 
+Position 3: works 0.35219 
+Time elapsed 349.20671463012695 
+Sample 1 
+tokens: [CLS] for me , this opera is n ' t a favorite , so it ' s a long time before the fat lady sings . [SEP] 
+length: 27 
+label: 0 
+Position 1: for 0.43625 
+Position 2: me 0.43125 
+Position 3: , 0.44375 
+Time elapsed 780.4781455993652 
+Sample 2 
+tokens: [CLS] almost everything else is wan . [SEP] 
+length: 8 
+label: 0 
+Position 1: almost 0.28813 
+Position 2: everything 0.28969 
+Position 3: else 0.28969 
+Time elapsed 58.93987846374512 
+Sample 3 
+tokens: [CLS] no , it ' s not nearly as good as any of its influences . [SEP] 
+length: 17 
+label: 0 
+Position 1: no 0.41000 
+Position 2: , 0.42531 
+Position 3: it 0.42687 
+Time elapsed 231.35630083084106 
+Sample 4 
+tokens: [CLS] daring , mesmerizing and exceeding ##ly hard to forget . [SEP] 
+length: 12 
+label: 1 
+Position 1: daring 0.29609 
+Position 2: , 0.28938 
+Position 3: mesmerizing 0.31719 
+Time elapsed 109.79966330528259 
+Sample 5 
+tokens: [CLS] i watched the brain ##less insanity of no such thing with mounting disbelief . [SEP] 
+length: 16 
+label: 0 
+Position 1: i 0.54094 
+Position 2: watched 0.53594 
+Position 3: the 0.54250 
+Time elapsed 214.69458651542664 
+Sample 6 
+tokens: [CLS] za ##ny , ex ##uber ##antly ir ##re ##vere ##nt animated space adventure . [SEP] 
+length: 16 
+label: 1 
+Position 3: , 0.39781 
+Time elapsed 65.6202301979065 
+Sample 7 
+tokens: [CLS] loving ##ly choreographed blood ##shed taking place in a pristine movie never ##land , basically . [SEP] 
+length: 18 
+label: 1 
+Position 3: choreographed 0.12352 
+Time elapsed 87.02578496932983 
+Sample 8 
+tokens: [CLS] loving ##ly choreographed blood ##shed taking place in a pristine movie never ##land , basically . [SEP] 
+length: 18 
+label: 1 
+Position 3: choreographed 0.12352 
+Time elapsed 86.93463206291199 
+Sample 9 
+tokens: [CLS] de niro may enjoy the same free ride from critics afforded to clint eastwood in the lazy blood ##work . [SEP] 
+length: 22 
+label: 0 
+Position 1: de 0.35188 
+Position 2: niro 0.35344 
+Position 3: may 0.35938 
+Time elapsed 399.0204451084137 
+Sample 10 
+tokens: [CLS] a boring , win ##cing ##ly cute and nausea ##ting ##ly politically correct cartoon guaranteed to drive anyone much over age 4 screaming from the theater . [SEP] 
+length: 29 
+label: 0 
+Position 1: a 0.16766 
+Position 2: boring 0.15461 
+Position 3: , 0.17016 
+Time elapsed 888.5461156368256 
+Sample 11 
+tokens: [CLS] an enjoyable film for the family , amusing and cute for both adults and kids . [SEP] 
+length: 18 
+label: 1 
+Position 1: an 0.59250 
+Position 2: enjoyable 0.63875 
+Position 3: film 0.59469 
+Time elapsed 292.86524415016174 
+Sample 12 
+tokens: [CLS] not everything works , but the average is higher than in mary and most other recent comedies . [SEP] 
+length: 20 
+label: 1 
+Position 1: not 0.33531 
+Position 2: everything 0.33219 
+Position 3: works 0.35219 
+Time elapsed 331.3637080192566 
+Sample 13 
+tokens: [CLS] matthew mcc ##ona ##ugh ##ey tries , and fails , to control the screen with sw ##agger ##ing mach ##ism ##o and over - the - top luna ##cy . [SEP] 
+length: 32 
+label: 0 

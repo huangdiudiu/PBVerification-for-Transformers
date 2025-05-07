@@ -1,0 +1,4300 @@
+Loading cached data...
+BERT checkpoint: model_sst_2_no/ckpt-3
+Dataset sizes: 0/87/182
+Restoring model...
+
+
+Verifying robustness...
+cuda
+20 valid examples
+Sample 0 
+tokens: [CLS] not everything works , but the average is higher than in mary and most other recent comedies . [SEP] 
+length: 20 
+label: 1 
+Warming up...
+attack succesfully!
+bound_input
+Average gap is:0.032000
+attention_scores
+Average gap is:0.001941
+attention_output
+Average gap is:0.091513
+attention_scores
+Average gap is:0.045497
+attention_output
+Average gap is:0.623940
+bound_input
+Average gap is:0.032000
+attention_scores
+Average gap is:0.001941
+attention_output
+Average gap is:0.091513
+attention_scores
+Average gap is:0.045497
+attention_output
+Average gap is:0.623940
+attack succesfully!
+Approximate maximum eps: 0.64
+1 0.00000 0.64000
+attack succesfully!
+[1] 0.00000 0.32000
+bound_input
+Average gap is:0.032000
+attention_scores
+Average gap is:0.001941
+attention_output
+Average gap is:0.091513
+attention_scores
+Average gap is:0.045497
+attention_output
+Average gap is:0.623940
+[1] 0.32000 0.64000
+attack succesfully!
+[1] 0.32000 0.48000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002606
+attention_output
+Average gap is:0.118212
+attention_scores
+Average gap is:0.065040
+attention_output
+Average gap is:0.950204
+[1] 0.32000 0.40000
+bound_input
+Average gap is:0.036000
+attention_scores
+Average gap is:0.002264
+attention_output
+Average gap is:0.104695
+attention_scores
+Average gap is:0.054786
+attention_output
+Average gap is:0.765938
+[1] 0.32000 0.36000
+bound_input
+Average gap is:0.034000
+attention_scores
+Average gap is:0.002100
+attention_output
+Average gap is:0.098063
+attention_scores
+Average gap is:0.050024
+attention_output
+Average gap is:0.690610
+[1] 0.32000 0.34000
+bound_input
+Average gap is:0.033000
+attention_scores
+Average gap is:0.002020
+attention_output
+Average gap is:0.094777
+attention_scores
+Average gap is:0.047731
+attention_output
+Average gap is:0.656073
+[1] 0.33000 0.34000
+bound_input
+Average gap is:0.033500
+attention_scores
+Average gap is:0.002060
+attention_output
+Average gap is:0.096418
+attention_scores
+Average gap is:0.048870
+attention_output
+Average gap is:0.673042
+[1] 0.33500 0.34000
+bound_input
+Average gap is:0.033750
+attention_scores
+Average gap is:0.002080
+attention_output
+Average gap is:0.097240
+attention_scores
+Average gap is:0.049446
+attention_output
+Average gap is:0.681752
+[1] 0.33500 0.33750
+bound_input
+Average gap is:0.033625
+attention_scores
+Average gap is:0.002070
+attention_output
+Average gap is:0.096829
+attention_scores
+Average gap is:0.049158
+attention_output
+Average gap is:0.677379
+[1] 0.33500 0.33625
+bound_input
+Average gap is:0.033563
+attention_scores
+Average gap is:0.002065
+attention_output
+Average gap is:0.096623
+attention_scores
+Average gap is:0.049014
+attention_output
+Average gap is:0.675206
+[1] 0.33500 0.33562
+bound_input
+Average gap is:0.033531
+attention_scores
+Average gap is:0.002063
+attention_output
+Average gap is:0.096521
+attention_scores
+Average gap is:0.048942
+attention_output
+Average gap is:0.674123
+[1] 0.33531 0.33562
+Position 1: not 0.33531 
+2 0.00000 0.64000
+attack succesfully!
+[2] 0.00000 0.32000
+bound_input
+Average gap is:0.032000
+attention_scores
+Average gap is:0.001955
+attention_output
+Average gap is:0.091437
+attention_scores
+Average gap is:0.045794
+attention_output
+Average gap is:0.619747
+[2] 0.32000 0.64000
+attack succesfully!
+[2] 0.32000 0.48000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002628
+attention_output
+Average gap is:0.118035
+attention_scores
+Average gap is:0.065277
+attention_output
+Average gap is:0.945658
+[2] 0.32000 0.40000
+bound_input
+Average gap is:0.036000
+attention_scores
+Average gap is:0.002282
+attention_output
+Average gap is:0.104569
+attention_scores
+Average gap is:0.055068
+attention_output
+Average gap is:0.763272
+[2] 0.32000 0.36000
+bound_input
+Average gap is:0.034000
+attention_scores
+Average gap is:0.002116
+attention_output
+Average gap is:0.097964
+attention_scores
+Average gap is:0.050318
+attention_output
+Average gap is:0.687129
+[2] 0.32000 0.34000
+bound_input
+Average gap is:0.033000
+attention_scores
+Average gap is:0.002035
+attention_output
+Average gap is:0.094690
+attention_scores
+Average gap is:0.048028
+attention_output
+Average gap is:0.652312
+[2] 0.33000 0.34000
+bound_input
+Average gap is:0.033500
+attention_scores
+Average gap is:0.002075
+attention_output
+Average gap is:0.096325
+attention_scores
+Average gap is:0.049166
+attention_output
+Average gap is:0.669422
+[2] 0.33000 0.33500
+bound_input
+Average gap is:0.033250
+attention_scores
+Average gap is:0.002055
+attention_output
+Average gap is:0.095507
+attention_scores
+Average gap is:0.048596
+attention_output
+Average gap is:0.660792
+[2] 0.33000 0.33250
+bound_input
+Average gap is:0.033125
+attention_scores
+Average gap is:0.002045
+attention_output
+Average gap is:0.095099
+attention_scores
+Average gap is:0.048312
+attention_output
+Average gap is:0.656534
+[2] 0.33125 0.33250
+bound_input
+Average gap is:0.033188
+attention_scores
+Average gap is:0.002050
+attention_output
+Average gap is:0.095303
+attention_scores
+Average gap is:0.048453
+attention_output
+Average gap is:0.658657
+[2] 0.33187 0.33250
+bound_input
+Average gap is:0.033219
+attention_scores
+Average gap is:0.002052
+attention_output
+Average gap is:0.095405
+attention_scores
+Average gap is:0.048525
+attention_output
+Average gap is:0.659723
+[2] 0.33219 0.33250
+Position 2: everything 0.33219 
+3 0.00000 0.64000
+attack succesfully!
+[3] 0.00000 0.32000
+bound_input
+Average gap is:0.032000
+attention_scores
+Average gap is:0.001906
+attention_output
+Average gap is:0.088636
+attention_scores
+Average gap is:0.042980
+attention_output
+Average gap is:0.569632
+[3] 0.32000 0.64000
+bound_input
+Average gap is:0.048000
+attention_scores
+Average gap is:0.003291
+attention_output
+Average gap is:0.143219
+attention_scores
+Average gap is:0.084268
+attention_output
+Average gap is:1.316901
+[3] 0.32000 0.48000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002562
+attention_output
+Average gap is:0.115190
+attention_scores
+Average gap is:0.061636
+attention_output
+Average gap is:0.859299
+[3] 0.32000 0.40000
+bound_input
+Average gap is:0.036000
+attention_scores
+Average gap is:0.002225
+attention_output
+Average gap is:0.101746
+attention_scores
+Average gap is:0.051854
+attention_output
+Average gap is:0.696771
+[3] 0.32000 0.36000
+bound_input
+Average gap is:0.034000
+attention_scores
+Average gap is:0.002063
+attention_output
+Average gap is:0.095151
+attention_scores
+Average gap is:0.047307
+attention_output
+Average gap is:0.629078
+[3] 0.34000 0.36000
+bound_input
+Average gap is:0.035000
+attention_scores
+Average gap is:0.002143
+attention_output
+Average gap is:0.098439
+attention_scores
+Average gap is:0.049553
+attention_output
+Average gap is:0.661750
+[3] 0.35000 0.36000
+bound_input
+Average gap is:0.035500
+attention_scores
+Average gap is:0.002184
+attention_output
+Average gap is:0.100090
+attention_scores
+Average gap is:0.050696
+attention_output
+Average gap is:0.678939
+[3] 0.35000 0.35500
+bound_input
+Average gap is:0.035250
+attention_scores
+Average gap is:0.002164
+attention_output
+Average gap is:0.099264
+attention_scores
+Average gap is:0.050123
+attention_output
+Average gap is:0.670276
+[3] 0.35000 0.35250
+bound_input
+Average gap is:0.035125
+attention_scores
+Average gap is:0.002153
+attention_output
+Average gap is:0.098851
+attention_scores
+Average gap is:0.049837
+attention_output
+Average gap is:0.665992
+[3] 0.35125 0.35250
+bound_input
+Average gap is:0.035188
+attention_scores
+Average gap is:0.002159
+attention_output
+Average gap is:0.099058
+attention_scores
+Average gap is:0.049980
+attention_output
+Average gap is:0.668124
+[3] 0.35187 0.35250
+bound_input
+Average gap is:0.035219
+attention_scores
+Average gap is:0.002161
+attention_output
+Average gap is:0.099161
+attention_scores
+Average gap is:0.050051
+attention_output
+Average gap is:0.669203
+[3] 0.35219 0.35250
+Position 3: works 0.35219 
+Time elapsed 349.20671463012695 
+Sample 1 
+tokens: [CLS] for me , this opera is n ' t a favorite , so it ' s a long time before the fat lady sings . [SEP] 
+length: 27 
+label: 0 
+1 0.00000 0.64000
+attack succesfully!
+[1] 0.00000 0.32000
+bound_input
+Average gap is:0.023704
+attention_scores
+Average gap is:0.001121
+attention_output
+Average gap is:0.070252
+attention_scores
+Average gap is:0.030331
+attention_output
+Average gap is:0.361093
+[1] 0.32000 0.64000
+bound_input
+Average gap is:0.035556
+attention_scores
+Average gap is:0.001927
+attention_output
+Average gap is:0.110535
+attention_scores
+Average gap is:0.056005
+attention_output
+Average gap is:0.788749
+[1] 0.32000 0.48000
+bound_input
+Average gap is:0.029630
+attention_scores
+Average gap is:0.001504
+attention_output
+Average gap is:0.089968
+attention_scores
+Average gap is:0.042115
+attention_output
+Average gap is:0.514970
+[1] 0.40000 0.48000
+bound_input
+Average gap is:0.032593
+attention_scores
+Average gap is:0.001710
+attention_output
+Average gap is:0.100118
+attention_scores
+Average gap is:0.048748
+attention_output
+Average gap is:0.627763
+[1] 0.40000 0.44000
+bound_input
+Average gap is:0.031111
+attention_scores
+Average gap is:0.001606
+attention_output
+Average gap is:0.095016
+attention_scores
+Average gap is:0.045365
+attention_output
+Average gap is:0.566245
+[1] 0.42000 0.44000
+bound_input
+Average gap is:0.031852
+attention_scores
+Average gap is:0.001658
+attention_output
+Average gap is:0.097564
+attention_scores
+Average gap is:0.047047
+attention_output
+Average gap is:0.595590
+[1] 0.43000 0.44000
+bound_input
+Average gap is:0.032222
+attention_scores
+Average gap is:0.001684
+attention_output
+Average gap is:0.098843
+attention_scores
+Average gap is:0.047900
+attention_output
+Average gap is:0.611345
+[1] 0.43500 0.44000
+bound_input
+Average gap is:0.032407
+attention_scores
+Average gap is:0.001697
+attention_output
+Average gap is:0.099476
+attention_scores
+Average gap is:0.048315
+attention_output
+Average gap is:0.619420
+[1] 0.43500 0.43750
+bound_input
+Average gap is:0.032315
+attention_scores
+Average gap is:0.001691
+attention_output
+Average gap is:0.099164
+attention_scores
+Average gap is:0.048115
+attention_output
+Average gap is:0.615402
+[1] 0.43625 0.43750
+bound_input
+Average gap is:0.032361
+attention_scores
+Average gap is:0.001694
+attention_output
+Average gap is:0.099315
+attention_scores
+Average gap is:0.048207
+attention_output
+Average gap is:0.617363
+[1] 0.43625 0.43688
+bound_input
+Average gap is:0.032338
+attention_scores
+Average gap is:0.001692
+attention_output
+Average gap is:0.099244
+attention_scores
+Average gap is:0.048169
+attention_output
+Average gap is:0.616423
+[1] 0.43625 0.43656
+Position 1: for 0.43625 
+2 0.00000 0.64000
+attack succesfully!
+[2] 0.00000 0.32000
+bound_input
+Average gap is:0.023704
+attention_scores
+Average gap is:0.001109
+attention_output
+Average gap is:0.070295
+attention_scores
+Average gap is:0.030296
+attention_output
+Average gap is:0.360819
+[2] 0.32000 0.64000
+bound_input
+Average gap is:0.035556
+attention_scores
+Average gap is:0.001908
+attention_output
+Average gap is:0.110572
+attention_scores
+Average gap is:0.055864
+attention_output
+Average gap is:0.784523
+[2] 0.32000 0.48000
+bound_input
+Average gap is:0.029630
+attention_scores
+Average gap is:0.001488
+attention_output
+Average gap is:0.090015
+attention_scores
+Average gap is:0.042045
+attention_output
+Average gap is:0.513858
+[2] 0.40000 0.48000
+bound_input
+Average gap is:0.032593
+attention_scores
+Average gap is:0.001693
+attention_output
+Average gap is:0.100163
+attention_scores
+Average gap is:0.048654
+attention_output
+Average gap is:0.626322
+[2] 0.40000 0.44000
+bound_input
+Average gap is:0.031111
+attention_scores
+Average gap is:0.001589
+attention_output
+Average gap is:0.095062
+attention_scores
+Average gap is:0.045284
+attention_output
+Average gap is:0.565067
+[2] 0.42000 0.44000
+bound_input
+Average gap is:0.031852
+attention_scores
+Average gap is:0.001641
+attention_output
+Average gap is:0.097609
+attention_scores
+Average gap is:0.046959
+attention_output
+Average gap is:0.594339
+[2] 0.43000 0.44000
+bound_input
+Average gap is:0.032222
+attention_scores
+Average gap is:0.001667
+attention_output
+Average gap is:0.098888
+attention_scores
+Average gap is:0.047809
+attention_output
+Average gap is:0.610014
+[2] 0.43000 0.43500
+bound_input
+Average gap is:0.032037
+attention_scores
+Average gap is:0.001654
+attention_output
+Average gap is:0.098247
+attention_scores
+Average gap is:0.047381
+attention_output
+Average gap is:0.602081
+[2] 0.43000 0.43250
+bound_input
+Average gap is:0.031944
+attention_scores
+Average gap is:0.001647
+attention_output
+Average gap is:0.097929
+attention_scores
+Average gap is:0.047171
+attention_output
+Average gap is:0.598198
+[2] 0.43125 0.43250
+bound_input
+Average gap is:0.031991
+attention_scores
+Average gap is:0.001650
+attention_output
+Average gap is:0.098089
+attention_scores
+Average gap is:0.047278
+attention_output
+Average gap is:0.600143
+[2] 0.43125 0.43188
+bound_input
+Average gap is:0.031968
+attention_scores
+Average gap is:0.001649
+attention_output
+Average gap is:0.098009
+attention_scores
+Average gap is:0.047225
+attention_output
+Average gap is:0.599168
+[2] 0.43125 0.43156
+Position 2: me 0.43125 
+3 0.00000 0.64000
+attack succesfully!
+[3] 0.00000 0.32000
+bound_input
+Average gap is:0.023704
+attention_scores
+Average gap is:0.001100
+attention_output
+Average gap is:0.070101
+attention_scores
+Average gap is:0.030078
+attention_output
+Average gap is:0.355367
+[3] 0.32000 0.64000
+bound_input
+Average gap is:0.035556
+attention_scores
+Average gap is:0.001892
+attention_output
+Average gap is:0.110239
+attention_scores
+Average gap is:0.055559
+attention_output
+Average gap is:0.763186
+[3] 0.32000 0.48000
+bound_input
+Average gap is:0.029630
+attention_scores
+Average gap is:0.001476
+attention_output
+Average gap is:0.089750
+attention_scores
+Average gap is:0.041779
+attention_output
+Average gap is:0.504537
+[3] 0.40000 0.48000
+bound_input
+Average gap is:0.032593
+attention_scores
+Average gap is:0.001679
+attention_output
+Average gap is:0.099865
+attention_scores
+Average gap is:0.048369
+attention_output
+Average gap is:0.610977
+[3] 0.44000 0.48000
+bound_input
+Average gap is:0.034074
+attention_scores
+Average gap is:0.001784
+attention_output
+Average gap is:0.105026
+attention_scores
+Average gap is:0.051894
+attention_output
+Average gap is:0.680638
+[3] 0.44000 0.46000
+bound_input
+Average gap is:0.033333
+attention_scores
+Average gap is:0.001731
+attention_output
+Average gap is:0.102436
+attention_scores
+Average gap is:0.050112
+attention_output
+Average gap is:0.644243
+[3] 0.44000 0.45000
+bound_input
+Average gap is:0.032963
+attention_scores
+Average gap is:0.001705
+attention_output
+Average gap is:0.101149
+attention_scores
+Average gap is:0.049236
+attention_output
+Average gap is:0.627237
+[3] 0.44000 0.44500
+bound_input
+Average gap is:0.032778
+attention_scores
+Average gap is:0.001692
+attention_output
+Average gap is:0.100507
+attention_scores
+Average gap is:0.048802
+attention_output
+Average gap is:0.619014
+[3] 0.44250 0.44500
+bound_input
+Average gap is:0.032870
+attention_scores
+Average gap is:0.001698
+attention_output
+Average gap is:0.100827
+attention_scores
+Average gap is:0.049019
+attention_output
+Average gap is:0.623102
+[3] 0.44375 0.44500
+bound_input
+Average gap is:0.032917
+attention_scores
+Average gap is:0.001702
+attention_output
+Average gap is:0.100988
+attention_scores
+Average gap is:0.049127
+attention_output
+Average gap is:0.625163
+[3] 0.44375 0.44437
+bound_input
+Average gap is:0.032894
+attention_scores
+Average gap is:0.001700
+attention_output
+Average gap is:0.100908
+attention_scores
+Average gap is:0.049073
+attention_output
+Average gap is:0.624131
+[3] 0.44375 0.44406
+Position 3: , 0.44375 
+Time elapsed 780.4781455993652 
+Sample 2 
+tokens: [CLS] almost everything else is wan . [SEP] 
+length: 8 
+label: 0 
+1 0.00000 0.64000
+attack succesfully!
+[1] 0.00000 0.32000
+bound_input
+Average gap is:0.080000
+attention_scores
+Average gap is:0.005988
+attention_output
+Average gap is:0.198464
+attention_scores
+Average gap is:0.117314
+attention_output
+Average gap is:1.299086
+[1] 0.00000 0.16000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002090
+attention_output
+Average gap is:0.083155
+attention_scores
+Average gap is:0.036237
+attention_output
+Average gap is:0.295174
+[1] 0.16000 0.32000
+bound_input
+Average gap is:0.060000
+attention_scores
+Average gap is:0.003806
+attention_output
+Average gap is:0.137381
+attention_scores
+Average gap is:0.069611
+attention_output
+Average gap is:0.593015
+[1] 0.24000 0.32000
+bound_input
+Average gap is:0.070000
+attention_scores
+Average gap is:0.004839
+attention_output
+Average gap is:0.167003
+attention_scores
+Average gap is:0.091420
+attention_output
+Average gap is:0.852926
+[1] 0.28000 0.32000
+bound_input
+Average gap is:0.075000
+attention_scores
+Average gap is:0.005399
+attention_output
+Average gap is:0.182487
+attention_scores
+Average gap is:0.103813
+attention_output
+Average gap is:1.050892
+[1] 0.28000 0.30000
+bound_input
+Average gap is:0.072500
+attention_scores
+Average gap is:0.005115
+attention_output
+Average gap is:0.174682
+attention_scores
+Average gap is:0.097482
+attention_output
+Average gap is:0.945033
+[1] 0.28000 0.29000
+bound_input
+Average gap is:0.071250
+attention_scores
+Average gap is:0.004976
+attention_output
+Average gap is:0.170827
+attention_scores
+Average gap is:0.094418
+attention_output
+Average gap is:0.897127
+[1] 0.28500 0.29000
+bound_input
+Average gap is:0.071875
+attention_scores
+Average gap is:0.005046
+attention_output
+Average gap is:0.172751
+attention_scores
+Average gap is:0.095942
+attention_output
+Average gap is:0.920648
+[1] 0.28750 0.29000
+bound_input
+Average gap is:0.072187
+attention_scores
+Average gap is:0.005081
+attention_output
+Average gap is:0.173716
+attention_scores
+Average gap is:0.096710
+attention_output
+Average gap is:0.932729
+[1] 0.28750 0.28875
+bound_input
+Average gap is:0.072031
+attention_scores
+Average gap is:0.005063
+attention_output
+Average gap is:0.173233
+attention_scores
+Average gap is:0.096325
+attention_output
+Average gap is:0.926666
+[1] 0.28813 0.28875
+bound_input
+Average gap is:0.072109
+attention_scores
+Average gap is:0.005072
+attention_output
+Average gap is:0.173475
+attention_scores
+Average gap is:0.096517
+attention_output
+Average gap is:0.929688
+[1] 0.28813 0.28844
+bound_input
+Average gap is:0.072070
+attention_scores
+Average gap is:0.005067
+attention_output
+Average gap is:0.173354
+attention_scores
+Average gap is:0.096421
+attention_output
+Average gap is:0.928172
+[1] 0.28813 0.28828
+Position 1: almost 0.28813 
+2 0.00000 0.64000
+attack succesfully!
+[2] 0.00000 0.32000
+bound_input
+Average gap is:0.080000
+attention_scores
+Average gap is:0.006107
+attention_output
+Average gap is:0.199202
+attention_scores
+Average gap is:0.117125
+attention_output
+Average gap is:1.290150
+[2] 0.00000 0.16000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002138
+attention_output
+Average gap is:0.082950
+attention_scores
+Average gap is:0.035906
+attention_output
+Average gap is:0.291562
+[2] 0.16000 0.32000
+bound_input
+Average gap is:0.060000
+attention_scores
+Average gap is:0.003890
+attention_output
+Average gap is:0.137729
+attention_scores
+Average gap is:0.069422
+attention_output
+Average gap is:0.588920
+[2] 0.24000 0.32000
+bound_input
+Average gap is:0.070000
+attention_scores
+Average gap is:0.004940
+attention_output
+Average gap is:0.167544
+attention_scores
+Average gap is:0.091241
+attention_output
+Average gap is:0.848003
+[2] 0.28000 0.32000
+bound_input
+Average gap is:0.075000
+attention_scores
+Average gap is:0.005509
+attention_output
+Average gap is:0.183122
+attention_scores
+Average gap is:0.103624
+attention_output
+Average gap is:1.044241
+[2] 0.28000 0.30000
+bound_input
+Average gap is:0.072500
+attention_scores
+Average gap is:0.005221
+attention_output
+Average gap is:0.175270
+attention_scores
+Average gap is:0.097297
+attention_output
+Average gap is:0.939180
+[2] 0.28000 0.29000
+bound_input
+Average gap is:0.071250
+attention_scores
+Average gap is:0.005079
+attention_output
+Average gap is:0.171393
+attention_scores
+Average gap is:0.094236
+attention_output
+Average gap is:0.891780
+[2] 0.28500 0.29000
+bound_input
+Average gap is:0.071875
+attention_scores
+Average gap is:0.005150
+attention_output
+Average gap is:0.173328
+attention_scores
+Average gap is:0.095759
+attention_output
+Average gap is:0.915046
+[2] 0.28750 0.29000
+bound_input
+Average gap is:0.072187
+attention_scores
+Average gap is:0.005185
+attention_output
+Average gap is:0.174299
+attention_scores
+Average gap is:0.096526
+attention_output
+Average gap is:0.927007
+[2] 0.28875 0.29000
+bound_input
+Average gap is:0.072344
+attention_scores
+Average gap is:0.005203
+attention_output
+Average gap is:0.174784
+attention_scores
+Average gap is:0.096911
+attention_output
+Average gap is:0.933067
+[2] 0.28938 0.29000
+bound_input
+Average gap is:0.072422
+attention_scores
+Average gap is:0.005212
+attention_output
+Average gap is:0.175027
+attention_scores
+Average gap is:0.097104
+attention_output
+Average gap is:0.936117
+[2] 0.28969 0.29000
+bound_input
+Average gap is:0.072461
+attention_scores
+Average gap is:0.005216
+attention_output
+Average gap is:0.175149
+attention_scores
+Average gap is:0.097201
+attention_output
+Average gap is:0.937647
+[2] 0.28969 0.28984
+Position 2: everything 0.28969 
+3 0.00000 0.64000
+attack succesfully!
+[3] 0.00000 0.32000
+bound_input
+Average gap is:0.080000
+attention_scores
+Average gap is:0.006244
+attention_output
+Average gap is:0.199770
+attention_scores
+Average gap is:0.119896
+attention_output
+Average gap is:1.284718
+[3] 0.00000 0.16000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002194
+attention_output
+Average gap is:0.083224
+attention_scores
+Average gap is:0.036284
+attention_output
+Average gap is:0.290708
+[3] 0.16000 0.32000
+bound_input
+Average gap is:0.060000
+attention_scores
+Average gap is:0.003986
+attention_output
+Average gap is:0.138188
+attention_scores
+Average gap is:0.070822
+attention_output
+Average gap is:0.586596
+[3] 0.24000 0.32000
+bound_input
+Average gap is:0.070000
+attention_scores
+Average gap is:0.005057
+attention_output
+Average gap is:0.168080
+attention_scores
+Average gap is:0.093287
+attention_output
+Average gap is:0.842676
+[3] 0.28000 0.32000
+bound_input
+Average gap is:0.075000
+attention_scores
+Average gap is:0.005636
+attention_output
+Average gap is:0.183686
+attention_scores
+Average gap is:0.106028
+attention_output
+Average gap is:1.037091
+[3] 0.28000 0.30000
+bound_input
+Average gap is:0.072500
+attention_scores
+Average gap is:0.005343
+attention_output
+Average gap is:0.175821
+attention_scores
+Average gap is:0.099520
+attention_output
+Average gap is:0.933124
+[3] 0.28000 0.29000
+bound_input
+Average gap is:0.071250
+attention_scores
+Average gap is:0.005199
+attention_output
+Average gap is:0.171934
+attention_scores
+Average gap is:0.096369
+attention_output
+Average gap is:0.886087
+[3] 0.28500 0.29000
+bound_input
+Average gap is:0.071875
+attention_scores
+Average gap is:0.005270
+attention_output
+Average gap is:0.173874
+attention_scores
+Average gap is:0.097936
+attention_output
+Average gap is:0.909198
+[3] 0.28750 0.29000
+bound_input
+Average gap is:0.072187
+attention_scores
+Average gap is:0.005307
+attention_output
+Average gap is:0.174847
+attention_scores
+Average gap is:0.098726
+attention_output
+Average gap is:0.921057
+[3] 0.28875 0.29000
+bound_input
+Average gap is:0.072344
+attention_scores
+Average gap is:0.005325
+attention_output
+Average gap is:0.175334
+attention_scores
+Average gap is:0.099122
+attention_output
+Average gap is:0.927066
+[3] 0.28938 0.29000
+bound_input
+Average gap is:0.072422
+attention_scores
+Average gap is:0.005334
+attention_output
+Average gap is:0.175577
+attention_scores
+Average gap is:0.099321
+attention_output
+Average gap is:0.930089
+[3] 0.28969 0.29000
+bound_input
+Average gap is:0.072461
+attention_scores
+Average gap is:0.005338
+attention_output
+Average gap is:0.175699
+attention_scores
+Average gap is:0.099420
+attention_output
+Average gap is:0.931605
+[3] 0.28969 0.28984
+Position 3: else 0.28969 
+Time elapsed 58.93987846374512 
+Sample 3 
+tokens: [CLS] no , it ' s not nearly as good as any of its influences . [SEP] 
+length: 17 
+label: 0 
+1 0.00000 0.64000
+attack succesfully!
+[1] 0.00000 0.32000
+bound_input
+Average gap is:0.037647
+attention_scores
+Average gap is:0.001992
+attention_output
+Average gap is:0.100841
+attention_scores
+Average gap is:0.049997
+attention_output
+Average gap is:0.490362
+[1] 0.32000 0.64000
+bound_input
+Average gap is:0.056471
+attention_scores
+Average gap is:0.003593
+attention_output
+Average gap is:0.165146
+attention_scores
+Average gap is:0.097431
+attention_output
+Average gap is:1.404498
+[1] 0.32000 0.48000
+bound_input
+Average gap is:0.047059
+attention_scores
+Average gap is:0.002741
+attention_output
+Average gap is:0.131955
+attention_scores
+Average gap is:0.071335
+attention_output
+Average gap is:0.778072
+[1] 0.40000 0.48000
+bound_input
+Average gap is:0.051765
+attention_scores
+Average gap is:0.003155
+attention_output
+Average gap is:0.148244
+attention_scores
+Average gap is:0.083677
+attention_output
+Average gap is:1.027750
+[1] 0.40000 0.44000
+bound_input
+Average gap is:0.049412
+attention_scores
+Average gap is:0.002945
+attention_output
+Average gap is:0.140036
+attention_scores
+Average gap is:0.077353
+attention_output
+Average gap is:0.890539
+[1] 0.40000 0.42000
+bound_input
+Average gap is:0.048235
+attention_scores
+Average gap is:0.002842
+attention_output
+Average gap is:0.135972
+attention_scores
+Average gap is:0.074287
+attention_output
+Average gap is:0.831401
+[1] 0.41000 0.42000
+bound_input
+Average gap is:0.048824
+attention_scores
+Average gap is:0.002893
+attention_output
+Average gap is:0.138000
+attention_scores
+Average gap is:0.075810
+attention_output
+Average gap is:0.860266
+[1] 0.41000 0.41500
+bound_input
+Average gap is:0.048529
+attention_scores
+Average gap is:0.002868
+attention_output
+Average gap is:0.136985
+attention_scores
+Average gap is:0.075046
+attention_output
+Average gap is:0.845711
+[1] 0.41000 0.41250
+bound_input
+Average gap is:0.048382
+attention_scores
+Average gap is:0.002855
+attention_output
+Average gap is:0.136478
+attention_scores
+Average gap is:0.074666
+attention_output
+Average gap is:0.838526
+[1] 0.41000 0.41125
+bound_input
+Average gap is:0.048309
+attention_scores
+Average gap is:0.002849
+attention_output
+Average gap is:0.136225
+attention_scores
+Average gap is:0.074476
+attention_output
+Average gap is:0.834951
+[1] 0.41000 0.41063
+bound_input
+Average gap is:0.048272
+attention_scores
+Average gap is:0.002845
+attention_output
+Average gap is:0.136099
+attention_scores
+Average gap is:0.074382
+attention_output
+Average gap is:0.833173
+[1] 0.41000 0.41031
+Position 1: no 0.41000 
+2 0.00000 0.64000
+attack succesfully!
+[2] 0.00000 0.32000
+bound_input
+Average gap is:0.037647
+attention_scores
+Average gap is:0.001990
+attention_output
+Average gap is:0.101760
+attention_scores
+Average gap is:0.049850
+attention_output
+Average gap is:0.499423
+[2] 0.32000 0.64000
+bound_input
+Average gap is:0.056471
+attention_scores
+Average gap is:0.003597
+attention_output
+Average gap is:0.164834
+attention_scores
+Average gap is:0.096542
+attention_output
+Average gap is:1.452144
+[2] 0.32000 0.48000
+bound_input
+Average gap is:0.047059
+attention_scores
+Average gap is:0.002742
+attention_output
+Average gap is:0.132277
+attention_scores
+Average gap is:0.070849
+attention_output
+Average gap is:0.793110
+[2] 0.40000 0.48000
+bound_input
+Average gap is:0.051765
+attention_scores
+Average gap is:0.003157
+attention_output
+Average gap is:0.148258
+attention_scores
+Average gap is:0.082989
+attention_output
+Average gap is:1.048598
+[2] 0.40000 0.44000
+bound_input
+Average gap is:0.049412
+attention_scores
+Average gap is:0.002946
+attention_output
+Average gap is:0.140205
+attention_scores
+Average gap is:0.076767
+attention_output
+Average gap is:0.906385
+[2] 0.42000 0.44000
+bound_input
+Average gap is:0.050588
+attention_scores
+Average gap is:0.003051
+attention_output
+Average gap is:0.144220
+attention_scores
+Average gap is:0.079847
+attention_output
+Average gap is:0.973645
+[2] 0.42000 0.43000
+bound_input
+Average gap is:0.050000
+attention_scores
+Average gap is:0.002998
+attention_output
+Average gap is:0.142212
+attention_scores
+Average gap is:0.078304
+attention_output
+Average gap is:0.939134
+[2] 0.42500 0.43000
+bound_input
+Average gap is:0.050294
+attention_scores
+Average gap is:0.003024
+attention_output
+Average gap is:0.143211
+attention_scores
+Average gap is:0.079066
+attention_output
+Average gap is:0.956121
+[2] 0.42500 0.42750
+bound_input
+Average gap is:0.050147
+attention_scores
+Average gap is:0.003011
+attention_output
+Average gap is:0.142715
+attention_scores
+Average gap is:0.078691
+attention_output
+Average gap is:0.947605
+[2] 0.42500 0.42625
+bound_input
+Average gap is:0.050074
+attention_scores
+Average gap is:0.003005
+attention_output
+Average gap is:0.142463
+attention_scores
+Average gap is:0.078497
+attention_output
+Average gap is:0.943356
+[2] 0.42500 0.42563
+bound_input
+Average gap is:0.050037
+attention_scores
+Average gap is:0.003001
+attention_output
+Average gap is:0.142337
+attention_scores
+Average gap is:0.078400
+attention_output
+Average gap is:0.941242
+[2] 0.42531 0.42563
+Position 2: , 0.42531 
+3 0.00000 0.64000
+attack succesfully!
+[3] 0.00000 0.32000
+bound_input
+Average gap is:0.037647
+attention_scores
+Average gap is:0.002011
+attention_output
+Average gap is:0.102721
+attention_scores
+Average gap is:0.051528
+attention_output
+Average gap is:0.499024
+[3] 0.32000 0.64000
+bound_input
+Average gap is:0.056471
+attention_scores
+Average gap is:0.003633
+attention_output
+Average gap is:0.166275
+attention_scores
+Average gap is:0.099808
+attention_output
+Average gap is:1.433845
+[3] 0.32000 0.48000
+bound_input
+Average gap is:0.047059
+attention_scores
+Average gap is:0.002771
+attention_output
+Average gap is:0.133482
+attention_scores
+Average gap is:0.073274
+attention_output
+Average gap is:0.790810
+[3] 0.40000 0.48000
+bound_input
+Average gap is:0.051765
+attention_scores
+Average gap is:0.003189
+attention_output
+Average gap is:0.149574
+attention_scores
+Average gap is:0.085828
+attention_output
+Average gap is:1.042563
+[3] 0.40000 0.44000
+bound_input
+Average gap is:0.049412
+attention_scores
+Average gap is:0.002976
+attention_output
+Average gap is:0.141457
+attention_scores
+Average gap is:0.079390
+attention_output
+Average gap is:0.902669
+[3] 0.42000 0.44000
+bound_input
+Average gap is:0.050588
+attention_scores
+Average gap is:0.003082
+attention_output
+Average gap is:0.145503
+attention_scores
+Average gap is:0.082577
+attention_output
+Average gap is:0.968935
+[3] 0.42000 0.43000
+bound_input
+Average gap is:0.050000
+attention_scores
+Average gap is:0.003029
+attention_output
+Average gap is:0.143480
+attention_scores
+Average gap is:0.080980
+attention_output
+Average gap is:0.934957
+[3] 0.42500 0.43000
+bound_input
+Average gap is:0.050294
+attention_scores
+Average gap is:0.003055
+attention_output
+Average gap is:0.144487
+attention_scores
+Average gap is:0.081770
+attention_output
+Average gap is:0.951688
+[3] 0.42500 0.42750
+bound_input
+Average gap is:0.050147
+attention_scores
+Average gap is:0.003042
+attention_output
+Average gap is:0.143987
+attention_scores
+Average gap is:0.081381
+attention_output
+Average gap is:0.943300
+[3] 0.42625 0.42750
+bound_input
+Average gap is:0.050221
+attention_scores
+Average gap is:0.003049
+attention_output
+Average gap is:0.144233
+attention_scores
+Average gap is:0.081568
+attention_output
+Average gap is:0.947446
+[3] 0.42688 0.42750
+bound_input
+Average gap is:0.050257
+attention_scores
+Average gap is:0.003052
+attention_output
+Average gap is:0.144360
+attention_scores
+Average gap is:0.081669
+attention_output
+Average gap is:0.949563
+[3] 0.42688 0.42719
+Position 3: it 0.42687 
+Time elapsed 231.35630083084106 
+Sample 4 
+tokens: [CLS] daring , mesmerizing and exceeding ##ly hard to forget . [SEP] 
+length: 12 
+label: 1 
+1 0.00000 0.64000
+attack succesfully!
+[1] 0.00000 0.32000
+bound_input
+Average gap is:0.053333
+attention_scores
+Average gap is:0.003652
+attention_output
+Average gap is:0.140879
+attention_scores
+Average gap is:0.091556
+attention_output
+Average gap is:1.005265
+[1] 0.00000 0.16000
+bound_input
+Average gap is:0.026667
+attention_scores
+Average gap is:0.001424
+attention_output
+Average gap is:0.061986
+attention_scores
+Average gap is:0.031854
+attention_output
+Average gap is:0.344145
+[1] 0.16000 0.32000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002435
+attention_output
+Average gap is:0.099640
+attention_scores
+Average gap is:0.057587
+attention_output
+Average gap is:0.595311
+[1] 0.24000 0.32000
+bound_input
+Average gap is:0.046667
+attention_scores
+Average gap is:0.003017
+attention_output
+Average gap is:0.119793
+attention_scores
+Average gap is:0.073439
+attention_output
+Average gap is:0.765133
+[1] 0.28000 0.32000
+bound_input
+Average gap is:0.050000
+attention_scores
+Average gap is:0.003328
+attention_output
+Average gap is:0.130217
+attention_scores
+Average gap is:0.082203
+attention_output
+Average gap is:0.872667
+[1] 0.28000 0.30000
+bound_input
+Average gap is:0.048333
+attention_scores
+Average gap is:0.003171
+attention_output
+Average gap is:0.124974
+attention_scores
+Average gap is:0.077748
+attention_output
+Average gap is:0.816238
+[1] 0.29000 0.30000
+bound_input
+Average gap is:0.049167
+attention_scores
+Average gap is:0.003249
+attention_output
+Average gap is:0.127589
+attention_scores
+Average gap is:0.079958
+attention_output
+Average gap is:0.843735
+[1] 0.29500 0.30000
+bound_input
+Average gap is:0.049583
+attention_scores
+Average gap is:0.003289
+attention_output
+Average gap is:0.128901
+attention_scores
+Average gap is:0.081076
+attention_output
+Average gap is:0.858014
+[1] 0.29500 0.29750
+bound_input
+Average gap is:0.049375
+attention_scores
+Average gap is:0.003269
+attention_output
+Average gap is:0.128245
+attention_scores
+Average gap is:0.080516
+attention_output
+Average gap is:0.850829
+[1] 0.29500 0.29625
+bound_input
+Average gap is:0.049271
+attention_scores
+Average gap is:0.003259
+attention_output
+Average gap is:0.127917
+attention_scores
+Average gap is:0.080237
+attention_output
+Average gap is:0.847270
+[1] 0.29563 0.29625
+bound_input
+Average gap is:0.049323
+attention_scores
+Average gap is:0.003264
+attention_output
+Average gap is:0.128081
+attention_scores
+Average gap is:0.080376
+attention_output
+Average gap is:0.849047
+[1] 0.29594 0.29625
+bound_input
+Average gap is:0.049349
+attention_scores
+Average gap is:0.003266
+attention_output
+Average gap is:0.128163
+attention_scores
+Average gap is:0.080446
+attention_output
+Average gap is:0.849937
+[1] 0.29609 0.29625
+Position 1: daring 0.29609 
+2 0.00000 0.64000
+attack succesfully!
+[2] 0.00000 0.32000
+bound_input
+Average gap is:0.053333
+attention_scores
+Average gap is:0.003643
+attention_output
+Average gap is:0.142908
+attention_scores
+Average gap is:0.093895
+attention_output
+Average gap is:1.043498
+[2] 0.00000 0.16000
+bound_input
+Average gap is:0.026667
+attention_scores
+Average gap is:0.001420
+attention_output
+Average gap is:0.063825
+attention_scores
+Average gap is:0.032938
+attention_output
+Average gap is:0.356718
+[2] 0.16000 0.32000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002428
+attention_output
+Average gap is:0.101701
+attention_scores
+Average gap is:0.059261
+attention_output
+Average gap is:0.614684
+[2] 0.24000 0.32000
+bound_input
+Average gap is:0.046667
+attention_scores
+Average gap is:0.003010
+attention_output
+Average gap is:0.121911
+attention_scores
+Average gap is:0.075483
+attention_output
+Average gap is:0.791923
+[2] 0.28000 0.32000
+bound_input
+Average gap is:0.050000
+attention_scores
+Average gap is:0.003320
+attention_output
+Average gap is:0.132304
+attention_scores
+Average gap is:0.084399
+attention_output
+Average gap is:0.905037
+[2] 0.28000 0.30000
+bound_input
+Average gap is:0.048333
+attention_scores
+Average gap is:0.003163
+attention_output
+Average gap is:0.127082
+attention_scores
+Average gap is:0.079871
+attention_output
+Average gap is:0.845625
+[2] 0.28000 0.29000
+bound_input
+Average gap is:0.047500
+attention_scores
+Average gap is:0.003086
+attention_output
+Average gap is:0.124491
+attention_scores
+Average gap is:0.077660
+attention_output
+Average gap is:0.818153
+[2] 0.28500 0.29000
+bound_input
+Average gap is:0.047917
+attention_scores
+Average gap is:0.003124
+attention_output
+Average gap is:0.125785
+attention_scores
+Average gap is:0.078761
+attention_output
+Average gap is:0.831719
+[2] 0.28750 0.29000
+bound_input
+Average gap is:0.048125
+attention_scores
+Average gap is:0.003144
+attention_output
+Average gap is:0.126433
+attention_scores
+Average gap is:0.079315
+attention_output
+Average gap is:0.838625
+[2] 0.28875 0.29000
+bound_input
+Average gap is:0.048229
+attention_scores
+Average gap is:0.003153
+attention_output
+Average gap is:0.126758
+attention_scores
+Average gap is:0.079593
+attention_output
+Average gap is:0.842113
+[2] 0.28938 0.29000
+bound_input
+Average gap is:0.048281
+attention_scores
+Average gap is:0.003158
+attention_output
+Average gap is:0.126920
+attention_scores
+Average gap is:0.079732
+attention_output
+Average gap is:0.843865
+[2] 0.28938 0.28969
+bound_input
+Average gap is:0.048255
+attention_scores
+Average gap is:0.003156
+attention_output
+Average gap is:0.126839
+attention_scores
+Average gap is:0.079662
+attention_output
+Average gap is:0.842988
+[2] 0.28938 0.28953
+Position 2: , 0.28938 
+3 0.00000 0.64000
+attack succesfully!
+[3] 0.00000 0.32000
+bound_input
+Average gap is:0.053333
+attention_scores
+Average gap is:0.003518
+attention_output
+Average gap is:0.137440
+attention_scores
+Average gap is:0.087537
+attention_output
+Average gap is:0.910696
+[3] 0.00000 0.16000
+bound_input
+Average gap is:0.026667
+attention_scores
+Average gap is:0.001381
+attention_output
+Average gap is:0.059316
+attention_scores
+Average gap is:0.029941
+attention_output
+Average gap is:0.315227
+[3] 0.16000 0.32000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002349
+attention_output
+Average gap is:0.096452
+attention_scores
+Average gap is:0.054653
+attention_output
+Average gap is:0.549102
+[3] 0.24000 0.32000
+bound_input
+Average gap is:0.046667
+attention_scores
+Average gap is:0.002908
+attention_output
+Average gap is:0.116495
+attention_scores
+Average gap is:0.070001
+attention_output
+Average gap is:0.703982
+[3] 0.28000 0.32000
+bound_input
+Average gap is:0.050000
+attention_scores
+Average gap is:0.003207
+attention_output
+Average gap is:0.126847
+attention_scores
+Average gap is:0.078480
+attention_output
+Average gap is:0.798023
+[3] 0.30000 0.32000
+bound_input
+Average gap is:0.051667
+attention_scores
+Average gap is:0.003361
+attention_output
+Average gap is:0.132114
+attention_scores
+Average gap is:0.082933
+attention_output
+Average gap is:0.851450
+[3] 0.31000 0.32000
+bound_input
+Average gap is:0.052500
+attention_scores
+Average gap is:0.003439
+attention_output
+Average gap is:0.134769
+attention_scores
+Average gap is:0.085219
+attention_output
+Average gap is:0.880234
+[3] 0.31500 0.32000
+bound_input
+Average gap is:0.052917
+attention_scores
+Average gap is:0.003478
+attention_output
+Average gap is:0.136106
+attention_scores
+Average gap is:0.086376
+attention_output
+Average gap is:0.895321
+[3] 0.31500 0.31750
+bound_input
+Average gap is:0.052708
+attention_scores
+Average gap is:0.003458
+attention_output
+Average gap is:0.135435
+attention_scores
+Average gap is:0.085794
+attention_output
+Average gap is:0.887658
+[3] 0.31625 0.31750
+bound_input
+Average gap is:0.052813
+attention_scores
+Average gap is:0.003468
+attention_output
+Average gap is:0.135773
+attention_scores
+Average gap is:0.086087
+attention_output
+Average gap is:0.891547
+[3] 0.31688 0.31750
+bound_input
+Average gap is:0.052865
+attention_scores
+Average gap is:0.003473
+attention_output
+Average gap is:0.135940
+attention_scores
+Average gap is:0.086232
+attention_output
+Average gap is:0.893431
+[3] 0.31719 0.31750
+bound_input
+Average gap is:0.052891
+attention_scores
+Average gap is:0.003476
+attention_output
+Average gap is:0.136023
+attention_scores
+Average gap is:0.086304
+attention_output
+Average gap is:0.894375
+[3] 0.31719 0.31734
+Position 3: mesmerizing 0.31719 
+Time elapsed 109.79966330528259 
+Sample 5 
+tokens: [CLS] i watched the brain ##less insanity of no such thing with mounting disbelief . [SEP] 
+length: 16 
+label: 0 
+1 0.00000 0.64000
+bound_input
+Average gap is:0.080000
+attention_scores
+Average gap is:0.006493
+attention_output
+Average gap is:0.237248
+attention_scores
+Average gap is:0.169357
+attention_output
+Average gap is:19.665531
+[1] 0.00000 0.32000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002318
+attention_output
+Average gap is:0.098024
+attention_scores
+Average gap is:0.050715
+attention_output
+Average gap is:0.442440
+[1] 0.32000 0.64000
+bound_input
+Average gap is:0.060000
+attention_scores
+Average gap is:0.004172
+attention_output
+Average gap is:0.161680
+attention_scores
+Average gap is:0.097886
+attention_output
+Average gap is:1.303394
+[1] 0.48000 0.64000
+bound_input
+Average gap is:0.070000
+attention_scores
+Average gap is:0.005274
+attention_output
+Average gap is:0.197669
+attention_scores
+Average gap is:0.129763
+attention_output
+Average gap is:3.433671
+[1] 0.48000 0.56000
+bound_input
+Average gap is:0.065000
+attention_scores
+Average gap is:0.004709
+attention_output
+Average gap is:0.179269
+attention_scores
+Average gap is:0.112937
+attention_output
+Average gap is:1.986718
+[1] 0.52000 0.56000
+bound_input
+Average gap is:0.067500
+attention_scores
+Average gap is:0.004988
+attention_output
+Average gap is:0.188369
+attention_scores
+Average gap is:0.121133
+attention_output
+Average gap is:2.572865
+[1] 0.54000 0.56000
+bound_input
+Average gap is:0.068750
+attention_scores
+Average gap is:0.005130
+attention_output
+Average gap is:0.193013
+attention_scores
+Average gap is:0.125386
+attention_output
+Average gap is:2.948155
+[1] 0.54000 0.55000
+bound_input
+Average gap is:0.068125
+attention_scores
+Average gap is:0.005059
+attention_output
+Average gap is:0.190683
+attention_scores
+Average gap is:0.123255
+attention_output
+Average gap is:2.755090
+[1] 0.54000 0.54500
+bound_input
+Average gap is:0.067813
+attention_scores
+Average gap is:0.005023
+attention_output
+Average gap is:0.189524
+attention_scores
+Average gap is:0.122190
+attention_output
+Average gap is:2.663044
+[1] 0.54000 0.54250
+bound_input
+Average gap is:0.067656
+attention_scores
+Average gap is:0.005006
+attention_output
+Average gap is:0.188946
+attention_scores
+Average gap is:0.121661
+attention_output
+Average gap is:2.617737
+[1] 0.54000 0.54125
+bound_input
+Average gap is:0.067578
+attention_scores
+Average gap is:0.004997
+attention_output
+Average gap is:0.188658
+attention_scores
+Average gap is:0.121397
+attention_output
+Average gap is:2.594901
+[1] 0.54063 0.54125
+bound_input
+Average gap is:0.067617
+attention_scores
+Average gap is:0.005001
+attention_output
+Average gap is:0.188802
+attention_scores
+Average gap is:0.121529
+attention_output
+Average gap is:2.606285
+[1] 0.54094 0.54125
+Position 1: i 0.54094 
+2 0.00000 0.64000
+bound_input
+Average gap is:0.080000
+attention_scores
+Average gap is:0.006432
+attention_output
+Average gap is:0.237861
+attention_scores
+Average gap is:0.169410
+attention_output
+Average gap is:20.649391
+[2] 0.00000 0.32000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002289
+attention_output
+Average gap is:0.097937
+attention_scores
+Average gap is:0.050620
+attention_output
+Average gap is:0.442661
+[2] 0.32000 0.64000
+bound_input
+Average gap is:0.060000
+attention_scores
+Average gap is:0.004127
+attention_output
+Average gap is:0.161754
+attention_scores
+Average gap is:0.097692
+attention_output
+Average gap is:1.307736
+[2] 0.48000 0.64000
+bound_input
+Average gap is:0.070000
+attention_scores
+Average gap is:0.005221
+attention_output
+Average gap is:0.197980
+attention_scores
+Average gap is:0.129653
+attention_output
+Average gap is:3.521139
+[2] 0.48000 0.56000
+bound_input
+Average gap is:0.065000
+attention_scores
+Average gap is:0.004659
+attention_output
+Average gap is:0.179452
+attention_scores
+Average gap is:0.112801
+attention_output
+Average gap is:2.007014
+[2] 0.52000 0.56000
+bound_input
+Average gap is:0.067500
+attention_scores
+Average gap is:0.004936
+attention_output
+Average gap is:0.188610
+attention_scores
+Average gap is:0.121010
+attention_output
+Average gap is:2.609637
+[2] 0.52000 0.54000
+bound_input
+Average gap is:0.066250
+attention_scores
+Average gap is:0.004797
+attention_output
+Average gap is:0.184005
+attention_scores
+Average gap is:0.116851
+attention_output
+Average gap is:2.278796
+[2] 0.53000 0.54000
+bound_input
+Average gap is:0.066875
+attention_scores
+Average gap is:0.004866
+attention_output
+Average gap is:0.186301
+attention_scores
+Average gap is:0.118917
+attention_output
+Average gap is:2.435988
+[2] 0.53500 0.54000
+bound_input
+Average gap is:0.067188
+attention_scores
+Average gap is:0.004901
+attention_output
+Average gap is:0.187454
+attention_scores
+Average gap is:0.119960
+attention_output
+Average gap is:2.520499
+[2] 0.53500 0.53750
+bound_input
+Average gap is:0.067031
+attention_scores
+Average gap is:0.004884
+attention_output
+Average gap is:0.186877
+attention_scores
+Average gap is:0.119438
+attention_output
+Average gap is:2.477793
+[2] 0.53500 0.53625
+bound_input
+Average gap is:0.066953
+attention_scores
+Average gap is:0.004875
+attention_output
+Average gap is:0.186589
+attention_scores
+Average gap is:0.119177
+attention_output
+Average gap is:2.456768
+[2] 0.53563 0.53625
+bound_input
+Average gap is:0.066992
+attention_scores
+Average gap is:0.004880
+attention_output
+Average gap is:0.186733
+attention_scores
+Average gap is:0.119307
+attention_output
+Average gap is:2.467223
+[2] 0.53594 0.53625
+Position 2: watched 0.53594 
+3 0.00000 0.64000
+bound_input
+Average gap is:0.080000
+attention_scores
+Average gap is:0.006429
+attention_output
+Average gap is:0.237880
+attention_scores
+Average gap is:0.170888
+attention_output
+Average gap is:20.037996
+[3] 0.00000 0.32000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002291
+attention_output
+Average gap is:0.098237
+attention_scores
+Average gap is:0.050885
+attention_output
+Average gap is:0.439489
+[3] 0.32000 0.64000
+bound_input
+Average gap is:0.060000
+attention_scores
+Average gap is:0.004127
+attention_output
+Average gap is:0.161997
+attention_scores
+Average gap is:0.098457
+attention_output
+Average gap is:1.291326
+[3] 0.48000 0.64000
+bound_input
+Average gap is:0.070000
+attention_scores
+Average gap is:0.005219
+attention_output
+Average gap is:0.198142
+attention_scores
+Average gap is:0.130714
+attention_output
+Average gap is:3.393091
+[3] 0.48000 0.56000
+bound_input
+Average gap is:0.065000
+attention_scores
+Average gap is:0.004658
+attention_output
+Average gap is:0.179645
+attention_scores
+Average gap is:0.113695
+attention_output
+Average gap is:1.969252
+[3] 0.52000 0.56000
+bound_input
+Average gap is:0.067500
+attention_scores
+Average gap is:0.004935
+attention_output
+Average gap is:0.188797
+attention_scores
+Average gap is:0.121992
+attention_output
+Average gap is:2.554208
+[3] 0.54000 0.56000
+bound_input
+Average gap is:0.068750
+attention_scores
+Average gap is:0.005076
+attention_output
+Average gap is:0.193449
+attention_scores
+Average gap is:0.126303
+attention_output
+Average gap is:2.936098
+[3] 0.54000 0.55000
+bound_input
+Average gap is:0.068125
+attention_scores
+Average gap is:0.005006
+attention_output
+Average gap is:0.191116
+attention_scores
+Average gap is:0.124136
+attention_output
+Average gap is:2.738160
+[3] 0.54000 0.54500
+bound_input
+Average gap is:0.067813
+attention_scores
+Average gap is:0.004970
+attention_output
+Average gap is:0.189955
+attention_scores
+Average gap is:0.123060
+attention_output
+Average gap is:2.644360
+[3] 0.54250 0.54500
+bound_input
+Average gap is:0.067969
+attention_scores
+Average gap is:0.004988
+attention_output
+Average gap is:0.190535
+attention_scores
+Average gap is:0.123597
+attention_output
+Average gap is:2.691239
+[3] 0.54250 0.54375
+bound_input
+Average gap is:0.067891
+attention_scores
+Average gap is:0.004979
+attention_output
+Average gap is:0.190245
+attention_scores
+Average gap is:0.123328
+attention_output
+Average gap is:2.667742
+[3] 0.54250 0.54312
+bound_input
+Average gap is:0.067852
+attention_scores
+Average gap is:0.004975
+attention_output
+Average gap is:0.190100
+attention_scores
+Average gap is:0.123194
+attention_output
+Average gap is:2.655879
+[3] 0.54250 0.54281
+Position 3: the 0.54250 
+Time elapsed 214.69458651542664 
+Sample 6 
+tokens: [CLS] za ##ny , ex ##uber ##antly ir ##re ##vere ##nt animated space adventure . [SEP] 
+length: 16 
+label: 1 
+3 0.00000 0.64000
+attack succesfully!
+[3] 0.00000 0.32000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002339
+attention_output
+Average gap is:0.104139
+attention_scores
+Average gap is:0.062661
+attention_output
+Average gap is:0.653891
+[3] 0.32000 0.64000
+bound_input
+Average gap is:0.060000
+attention_scores
+Average gap is:0.004196
+attention_output
+Average gap is:0.170350
+attention_scores
+Average gap is:0.122167
+attention_output
+Average gap is:1.746096
+[3] 0.32000 0.48000
+bound_input
+Average gap is:0.050000
+attention_scores
+Average gap is:0.003209
+attention_output
+Average gap is:0.136035
+attention_scores
+Average gap is:0.089441
+attention_output
+Average gap is:1.012424
+[3] 0.32000 0.40000
+bound_input
+Average gap is:0.045000
+attention_scores
+Average gap is:0.002760
+attention_output
+Average gap is:0.119816
+attention_scores
+Average gap is:0.075384
+attention_output
+Average gap is:0.811037
+[3] 0.36000 0.40000
+bound_input
+Average gap is:0.047500
+attention_scores
+Average gap is:0.002981
+attention_output
+Average gap is:0.127850
+attention_scores
+Average gap is:0.082236
+attention_output
+Average gap is:0.903393
+[3] 0.38000 0.40000
+bound_input
+Average gap is:0.048750
+attention_scores
+Average gap is:0.003094
+attention_output
+Average gap is:0.131923
+attention_scores
+Average gap is:0.085793
+attention_output
+Average gap is:0.955437
+[3] 0.39000 0.40000
+bound_input
+Average gap is:0.049375
+attention_scores
+Average gap is:0.003152
+attention_output
+Average gap is:0.133974
+attention_scores
+Average gap is:0.087605
+attention_output
+Average gap is:0.983256
+[3] 0.39500 0.40000
+bound_input
+Average gap is:0.049688
+attention_scores
+Average gap is:0.003180
+attention_output
+Average gap is:0.135003
+attention_scores
+Average gap is:0.088520
+attention_output
+Average gap is:0.997689
+[3] 0.39750 0.40000
+bound_input
+Average gap is:0.049844
+attention_scores
+Average gap is:0.003195
+attention_output
+Average gap is:0.135519
+attention_scores
+Average gap is:0.088980
+attention_output
+Average gap is:1.005038
+[3] 0.39750 0.39875
+bound_input
+Average gap is:0.049766
+attention_scores
+Average gap is:0.003188
+attention_output
+Average gap is:0.135261
+attention_scores
+Average gap is:0.088750
+attention_output
+Average gap is:1.001353
+[3] 0.39750 0.39813
+bound_input
+Average gap is:0.049727
+attention_scores
+Average gap is:0.003184
+attention_output
+Average gap is:0.135132
+attention_scores
+Average gap is:0.088635
+attention_output
+Average gap is:0.999517
+[3] 0.39781 0.39813
+Position 3: , 0.39781 
+Time elapsed 65.6202301979065 
+Sample 7 
+tokens: [CLS] loving ##ly choreographed blood ##shed taking place in a pristine movie never ##land , basically . [SEP] 
+length: 18 
+label: 1 
+3 0.00000 0.64000
+attack succesfully!
+[3] 0.00000 0.32000
+attack succesfully!
+[3] 0.00000 0.16000
+attack succesfully!
+[3] 0.00000 0.08000
+bound_input
+Average gap is:0.008889
+attention_scores
+Average gap is:0.000361
+attention_output
+Average gap is:0.023606
+attention_scores
+Average gap is:0.004581
+attention_output
+Average gap is:0.149838
+[3] 0.08000 0.16000
+bound_input
+Average gap is:0.013333
+attention_scores
+Average gap is:0.000573
+attention_output
+Average gap is:0.036867
+attention_scores
+Average gap is:0.008191
+attention_output
+Average gap is:0.246199
+[3] 0.12000 0.16000
+bound_input
+Average gap is:0.015556
+attention_scores
+Average gap is:0.000688
+attention_output
+Average gap is:0.043683
+attention_scores
+Average gap is:0.010350
+attention_output
+Average gap is:0.303256
+[3] 0.12000 0.14000
+bound_input
+Average gap is:0.014444
+attention_scores
+Average gap is:0.000630
+attention_output
+Average gap is:0.040263
+attention_scores
+Average gap is:0.009241
+attention_output
+Average gap is:0.273995
+[3] 0.12000 0.13000
+bound_input
+Average gap is:0.013889
+attention_scores
+Average gap is:0.000602
+attention_output
+Average gap is:0.038561
+attention_scores
+Average gap is:0.008709
+attention_output
+Average gap is:0.259898
+[3] 0.12000 0.12500
+bound_input
+Average gap is:0.013611
+attention_scores
+Average gap is:0.000587
+attention_output
+Average gap is:0.037713
+attention_scores
+Average gap is:0.008448
+attention_output
+Average gap is:0.252995
+[3] 0.12250 0.12500
+bound_input
+Average gap is:0.013750
+attention_scores
+Average gap is:0.000594
+attention_output
+Average gap is:0.038137
+attention_scores
+Average gap is:0.008578
+attention_output
+Average gap is:0.256432
+[3] 0.12250 0.12375
+bound_input
+Average gap is:0.013681
+attention_scores
+Average gap is:0.000591
+attention_output
+Average gap is:0.037925
+attention_scores
+Average gap is:0.008513
+attention_output
+Average gap is:0.254710
+[3] 0.12312 0.12375
+bound_input
+Average gap is:0.013715
+attention_scores
+Average gap is:0.000593
+attention_output
+Average gap is:0.038031
+attention_scores
+Average gap is:0.008545
+attention_output
+Average gap is:0.255570
+[3] 0.12344 0.12375
+bound_input
+Average gap is:0.013733
+attention_scores
+Average gap is:0.000594
+attention_output
+Average gap is:0.038084
+attention_scores
+Average gap is:0.008562
+attention_output
+Average gap is:0.256001
+[3] 0.12344 0.12359
+bound_input
+Average gap is:0.013724
+attention_scores
+Average gap is:0.000593
+attention_output
+Average gap is:0.038058
+attention_scores
+Average gap is:0.008554
+attention_output
+Average gap is:0.255785
+[3] 0.12352 0.12359
+Position 3: choreographed 0.12352 
+Time elapsed 87.02578496932983 
+Sample 8 
+tokens: [CLS] loving ##ly choreographed blood ##shed taking place in a pristine movie never ##land , basically . [SEP] 
+length: 18 
+label: 1 
+3 0.00000 0.64000
+attack succesfully!
+[3] 0.00000 0.32000
+attack succesfully!
+[3] 0.00000 0.16000
+attack succesfully!
+[3] 0.00000 0.08000
+bound_input
+Average gap is:0.008889
+attention_scores
+Average gap is:0.000361
+attention_output
+Average gap is:0.023606
+attention_scores
+Average gap is:0.004581
+attention_output
+Average gap is:0.149838
+[3] 0.08000 0.16000
+bound_input
+Average gap is:0.013333
+attention_scores
+Average gap is:0.000573
+attention_output
+Average gap is:0.036867
+attention_scores
+Average gap is:0.008191
+attention_output
+Average gap is:0.246199
+[3] 0.12000 0.16000
+bound_input
+Average gap is:0.015556
+attention_scores
+Average gap is:0.000688
+attention_output
+Average gap is:0.043683
+attention_scores
+Average gap is:0.010350
+attention_output
+Average gap is:0.303256
+[3] 0.12000 0.14000
+bound_input
+Average gap is:0.014444
+attention_scores
+Average gap is:0.000630
+attention_output
+Average gap is:0.040263
+attention_scores
+Average gap is:0.009241
+attention_output
+Average gap is:0.273995
+[3] 0.12000 0.13000
+bound_input
+Average gap is:0.013889
+attention_scores
+Average gap is:0.000602
+attention_output
+Average gap is:0.038561
+attention_scores
+Average gap is:0.008709
+attention_output
+Average gap is:0.259898
+[3] 0.12000 0.12500
+bound_input
+Average gap is:0.013611
+attention_scores
+Average gap is:0.000587
+attention_output
+Average gap is:0.037713
+attention_scores
+Average gap is:0.008448
+attention_output
+Average gap is:0.252995
+[3] 0.12250 0.12500
+bound_input
+Average gap is:0.013750
+attention_scores
+Average gap is:0.000594
+attention_output
+Average gap is:0.038137
+attention_scores
+Average gap is:0.008578
+attention_output
+Average gap is:0.256432
+[3] 0.12250 0.12375
+bound_input
+Average gap is:0.013681
+attention_scores
+Average gap is:0.000591
+attention_output
+Average gap is:0.037925
+attention_scores
+Average gap is:0.008513
+attention_output
+Average gap is:0.254710
+[3] 0.12312 0.12375
+bound_input
+Average gap is:0.013715
+attention_scores
+Average gap is:0.000593
+attention_output
+Average gap is:0.038031
+attention_scores
+Average gap is:0.008545
+attention_output
+Average gap is:0.255570
+[3] 0.12344 0.12375
+bound_input
+Average gap is:0.013733
+attention_scores
+Average gap is:0.000594
+attention_output
+Average gap is:0.038084
+attention_scores
+Average gap is:0.008562
+attention_output
+Average gap is:0.256001
+[3] 0.12344 0.12359
+bound_input
+Average gap is:0.013724
+attention_scores
+Average gap is:0.000593
+attention_output
+Average gap is:0.038058
+attention_scores
+Average gap is:0.008554
+attention_output
+Average gap is:0.255785
+[3] 0.12352 0.12359
+Position 3: choreographed 0.12352 
+Time elapsed 86.93463206291199 
+Sample 9 
+tokens: [CLS] de niro may enjoy the same free ride from critics afforded to clint eastwood in the lazy blood ##work . [SEP] 
+length: 22 
+label: 0 
+1 0.00000 0.64000
+attack succesfully!
+[1] 0.00000 0.32000
+bound_input
+Average gap is:0.029091
+attention_scores
+Average gap is:0.001519
+attention_output
+Average gap is:0.086952
+attention_scores
+Average gap is:0.039741
+attention_output
+Average gap is:0.466337
+[1] 0.32000 0.64000
+attack succesfully!
+[1] 0.32000 0.48000
+bound_input
+Average gap is:0.036364
+attention_scores
+Average gap is:0.002052
+attention_output
+Average gap is:0.111766
+attention_scores
+Average gap is:0.056233
+attention_output
+Average gap is:0.727862
+[1] 0.32000 0.40000
+bound_input
+Average gap is:0.032727
+attention_scores
+Average gap is:0.001778
+attention_output
+Average gap is:0.099210
+attention_scores
+Average gap is:0.047592
+attention_output
+Average gap is:0.577885
+[1] 0.32000 0.36000
+bound_input
+Average gap is:0.030909
+attention_scores
+Average gap is:0.001646
+attention_output
+Average gap is:0.093049
+attention_scores
+Average gap is:0.043575
+attention_output
+Average gap is:0.517657
+[1] 0.34000 0.36000
+bound_input
+Average gap is:0.031818
+attention_scores
+Average gap is:0.001712
+attention_output
+Average gap is:0.096118
+attention_scores
+Average gap is:0.045556
+attention_output
+Average gap is:0.546613
+[1] 0.35000 0.36000
+bound_input
+Average gap is:0.032273
+attention_scores
+Average gap is:0.001745
+attention_output
+Average gap is:0.097662
+attention_scores
+Average gap is:0.046568
+attention_output
+Average gap is:0.561931
+[1] 0.35000 0.35500
+bound_input
+Average gap is:0.032045
+attention_scores
+Average gap is:0.001728
+attention_output
+Average gap is:0.096890
+attention_scores
+Average gap is:0.046060
+attention_output
+Average gap is:0.554190
+[1] 0.35000 0.35250
+bound_input
+Average gap is:0.031932
+attention_scores
+Average gap is:0.001720
+attention_output
+Average gap is:0.096504
+attention_scores
+Average gap is:0.045808
+attention_output
+Average gap is:0.550381
+[1] 0.35125 0.35250
+bound_input
+Average gap is:0.031989
+attention_scores
+Average gap is:0.001724
+attention_output
+Average gap is:0.096697
+attention_scores
+Average gap is:0.045934
+attention_output
+Average gap is:0.552280
+[1] 0.35187 0.35250
+bound_input
+Average gap is:0.032017
+attention_scores
+Average gap is:0.001726
+attention_output
+Average gap is:0.096793
+attention_scores
+Average gap is:0.045997
+attention_output
+Average gap is:0.553234
+[1] 0.35187 0.35219
+Position 1: de 0.35188 
+2 0.00000 0.64000
+attack succesfully!
+[2] 0.00000 0.32000
+bound_input
+Average gap is:0.029091
+attention_scores
+Average gap is:0.001523
+attention_output
+Average gap is:0.086685
+attention_scores
+Average gap is:0.039145
+attention_output
+Average gap is:0.460210
+[2] 0.32000 0.64000
+attack succesfully!
+[2] 0.32000 0.48000
+bound_input
+Average gap is:0.036364
+attention_scores
+Average gap is:0.002057
+attention_output
+Average gap is:0.111467
+attention_scores
+Average gap is:0.055391
+attention_output
+Average gap is:0.715006
+[2] 0.32000 0.40000
+bound_input
+Average gap is:0.032727
+attention_scores
+Average gap is:0.001782
+attention_output
+Average gap is:0.098926
+attention_scores
+Average gap is:0.046875
+attention_output
+Average gap is:0.568745
+[2] 0.32000 0.36000
+bound_input
+Average gap is:0.030909
+attention_scores
+Average gap is:0.001651
+attention_output
+Average gap is:0.092774
+attention_scores
+Average gap is:0.042920
+attention_output
+Average gap is:0.510092
+[2] 0.34000 0.36000
+bound_input
+Average gap is:0.031818
+attention_scores
+Average gap is:0.001716
+attention_output
+Average gap is:0.095838
+attention_scores
+Average gap is:0.044870
+attention_output
+Average gap is:0.538188
+[2] 0.35000 0.36000
+bound_input
+Average gap is:0.032273
+attention_scores
+Average gap is:0.001749
+attention_output
+Average gap is:0.097380
+attention_scores
+Average gap is:0.045867
+attention_output
+Average gap is:0.553228
+[2] 0.35000 0.35500
+bound_input
+Average gap is:0.032045
+attention_scores
+Average gap is:0.001732
+attention_output
+Average gap is:0.096609
+attention_scores
+Average gap is:0.045367
+attention_output
+Average gap is:0.545643
+[2] 0.35250 0.35500
+bound_input
+Average gap is:0.032159
+attention_scores
+Average gap is:0.001741
+attention_output
+Average gap is:0.096994
+attention_scores
+Average gap is:0.045616
+attention_output
+Average gap is:0.549436
+[2] 0.35250 0.35375
+bound_input
+Average gap is:0.032102
+attention_scores
+Average gap is:0.001736
+attention_output
+Average gap is:0.096801
+attention_scores
+Average gap is:0.045492
+attention_output
+Average gap is:0.547534
+[2] 0.35313 0.35375
+bound_input
+Average gap is:0.032131
+attention_scores
+Average gap is:0.001738
+attention_output
+Average gap is:0.096898
+attention_scores
+Average gap is:0.045554
+attention_output
+Average gap is:0.548484
+[2] 0.35344 0.35375
+Position 2: niro 0.35344 
+3 0.00000 0.64000
+attack succesfully!
+[3] 0.00000 0.32000
+bound_input
+Average gap is:0.029091
+attention_scores
+Average gap is:0.001535
+attention_output
+Average gap is:0.086932
+attention_scores
+Average gap is:0.039439
+attention_output
+Average gap is:0.454901
+[3] 0.32000 0.64000
+attack succesfully!
+[3] 0.32000 0.48000
+bound_input
+Average gap is:0.036364
+attention_scores
+Average gap is:0.002072
+attention_output
+Average gap is:0.111653
+attention_scores
+Average gap is:0.055779
+attention_output
+Average gap is:0.701027
+[3] 0.32000 0.40000
+bound_input
+Average gap is:0.032727
+attention_scores
+Average gap is:0.001796
+attention_output
+Average gap is:0.099143
+attention_scores
+Average gap is:0.047220
+attention_output
+Average gap is:0.559712
+[3] 0.32000 0.36000
+bound_input
+Average gap is:0.030909
+attention_scores
+Average gap is:0.001664
+attention_output
+Average gap is:0.093006
+attention_scores
+Average gap is:0.043241
+attention_output
+Average gap is:0.503556
+[3] 0.34000 0.36000
+bound_input
+Average gap is:0.031818
+attention_scores
+Average gap is:0.001729
+attention_output
+Average gap is:0.096063
+attention_scores
+Average gap is:0.045202
+attention_output
+Average gap is:0.530441
+[3] 0.35000 0.36000
+bound_input
+Average gap is:0.032273
+attention_scores
+Average gap is:0.001763
+attention_output
+Average gap is:0.097600
+attention_scores
+Average gap is:0.046205
+attention_output
+Average gap is:0.544834
+[3] 0.35500 0.36000
+bound_input
+Average gap is:0.032500
+attention_scores
+Average gap is:0.001779
+attention_output
+Average gap is:0.098371
+attention_scores
+Average gap is:0.046711
+attention_output
+Average gap is:0.552189
+[3] 0.35750 0.36000
+bound_input
+Average gap is:0.032614
+attention_scores
+Average gap is:0.001788
+attention_output
+Average gap is:0.098757
+attention_scores
+Average gap is:0.046965
+attention_output
+Average gap is:0.555929
+[3] 0.35875 0.36000
+bound_input
+Average gap is:0.032670
+attention_scores
+Average gap is:0.001792
+attention_output
+Average gap is:0.098950
+attention_scores
+Average gap is:0.047093
+attention_output
+Average gap is:0.557816
+[3] 0.35938 0.36000
+bound_input
+Average gap is:0.032699
+attention_scores
+Average gap is:0.001794
+attention_output
+Average gap is:0.099046
+attention_scores
+Average gap is:0.047157
+attention_output
+Average gap is:0.558763
+[3] 0.35938 0.35969
+Position 3: may 0.35938 
+Time elapsed 399.0204451084137 
+Sample 10 
+tokens: [CLS] a boring , win ##cing ##ly cute and nausea ##ting ##ly politically correct cartoon guaranteed to drive anyone much over age 4 screaming from the theater . [SEP] 
+length: 29 
+label: 0 
+1 0.00000 0.64000
+attack succesfully!
+[1] 0.00000 0.32000
+attack succesfully!
+[1] 0.00000 0.16000
+bound_input
+Average gap is:0.011034
+attention_scores
+Average gap is:0.000526
+attention_output
+Average gap is:0.031226
+attention_scores
+Average gap is:0.007554
+attention_output
+Average gap is:0.161238
+[1] 0.16000 0.32000
+attack succesfully!
+[1] 0.16000 0.24000
+attack succesfully!
+[1] 0.16000 0.20000
+bound_input
+Average gap is:0.012414
+attention_scores
+Average gap is:0.000601
+attention_output
+Average gap is:0.035578
+attention_scores
+Average gap is:0.008914
+attention_output
+Average gap is:0.189721
+[1] 0.16000 0.18000
+bound_input
+Average gap is:0.011724
+attention_scores
+Average gap is:0.000563
+attention_output
+Average gap is:0.033397
+attention_scores
+Average gap is:0.008222
+attention_output
+Average gap is:0.175055
+[1] 0.16000 0.17000
+bound_input
+Average gap is:0.011379
+attention_scores
+Average gap is:0.000544
+attention_output
+Average gap is:0.032311
+attention_scores
+Average gap is:0.007885
+attention_output
+Average gap is:0.168053
+[1] 0.16500 0.17000
+bound_input
+Average gap is:0.011552
+attention_scores
+Average gap is:0.000554
+attention_output
+Average gap is:0.032854
+attention_scores
+Average gap is:0.008053
+attention_output
+Average gap is:0.171537
+[1] 0.16750 0.17000
+bound_input
+Average gap is:0.011638
+attention_scores
+Average gap is:0.000558
+attention_output
+Average gap is:0.033125
+attention_scores
+Average gap is:0.008137
+attention_output
+Average gap is:0.173284
+[1] 0.16750 0.16875
+bound_input
+Average gap is:0.011595
+attention_scores
+Average gap is:0.000556
+attention_output
+Average gap is:0.032990
+attention_scores
+Average gap is:0.008095
+attention_output
+Average gap is:0.172415
+[1] 0.16750 0.16812
+bound_input
+Average gap is:0.011573
+attention_scores
+Average gap is:0.000555
+attention_output
+Average gap is:0.032922
+attention_scores
+Average gap is:0.008074
+attention_output
+Average gap is:0.171976
+[1] 0.16750 0.16781
+bound_input
+Average gap is:0.011562
+attention_scores
+Average gap is:0.000554
+attention_output
+Average gap is:0.032888
+attention_scores
+Average gap is:0.008064
+attention_output
+Average gap is:0.171756
+[1] 0.16766 0.16781
+Position 1: a 0.16766 
+2 0.00000 0.64000
+attack succesfully!
+[2] 0.00000 0.32000
+attack succesfully!
+[2] 0.00000 0.16000
+bound_input
+Average gap is:0.011034
+attention_scores
+Average gap is:0.000521
+attention_output
+Average gap is:0.031123
+attention_scores
+Average gap is:0.007456
+attention_output
+Average gap is:0.162371
+[2] 0.00000 0.08000
+bound_input
+Average gap is:0.005517
+attention_scores
+Average gap is:0.000244
+attention_output
+Average gap is:0.014675
+attention_scores
+Average gap is:0.003074
+attention_output
+Average gap is:0.070754
+[2] 0.08000 0.16000
+bound_input
+Average gap is:0.008276
+attention_scores
+Average gap is:0.000378
+attention_output
+Average gap is:0.022752
+attention_scores
+Average gap is:0.005096
+attention_output
+Average gap is:0.112876
+[2] 0.12000 0.16000
+bound_input
+Average gap is:0.009655
+attention_scores
+Average gap is:0.000448
+attention_output
+Average gap is:0.026913
+attention_scores
+Average gap is:0.006235
+attention_output
+Average gap is:0.136381
+[2] 0.14000 0.16000
+bound_input
+Average gap is:0.010345
+attention_scores
+Average gap is:0.000484
+attention_output
+Average gap is:0.029012
+attention_scores
+Average gap is:0.006834
+attention_output
+Average gap is:0.149007
+[2] 0.15000 0.16000
+bound_input
+Average gap is:0.010690
+attention_scores
+Average gap is:0.000502
+attention_output
+Average gap is:0.030066
+attention_scores
+Average gap is:0.007143
+attention_output
+Average gap is:0.155585
+[2] 0.15000 0.15500
+bound_input
+Average gap is:0.010517
+attention_scores
+Average gap is:0.000493
+attention_output
+Average gap is:0.029538
+attention_scores
+Average gap is:0.006988
+attention_output
+Average gap is:0.152272
+[2] 0.15250 0.15500
+bound_input
+Average gap is:0.010603
+attention_scores
+Average gap is:0.000498
+attention_output
+Average gap is:0.029802
+attention_scores
+Average gap is:0.007065
+attention_output
+Average gap is:0.153921
+[2] 0.15375 0.15500
+bound_input
+Average gap is:0.010647
+attention_scores
+Average gap is:0.000500
+attention_output
+Average gap is:0.029934
+attention_scores
+Average gap is:0.007104
+attention_output
+Average gap is:0.154751
+[2] 0.15438 0.15500
+bound_input
+Average gap is:0.010668
+attention_scores
+Average gap is:0.000501
+attention_output
+Average gap is:0.030000
+attention_scores
+Average gap is:0.007123
+attention_output
+Average gap is:0.155167
+[2] 0.15438 0.15469
+bound_input
+Average gap is:0.010657
+attention_scores
+Average gap is:0.000501
+attention_output
+Average gap is:0.029967
+attention_scores
+Average gap is:0.007114
+attention_output
+Average gap is:0.154959
+[2] 0.15453 0.15469
+bound_input
+Average gap is:0.010663
+attention_scores
+Average gap is:0.000501
+attention_output
+Average gap is:0.029983
+attention_scores
+Average gap is:0.007118
+attention_output
+Average gap is:0.155063
+[2] 0.15461 0.15469
+Position 2: boring 0.15461 
+3 0.00000 0.64000
+attack succesfully!
+[3] 0.00000 0.32000
+attack succesfully!
+[3] 0.00000 0.16000
+bound_input
+Average gap is:0.011034
+attention_scores
+Average gap is:0.000519
+attention_output
+Average gap is:0.031661
+attention_scores
+Average gap is:0.007621
+attention_output
+Average gap is:0.160518
+[3] 0.16000 0.32000
+attack succesfully!
+[3] 0.16000 0.24000
+bound_input
+Average gap is:0.013793
+attention_scores
+Average gap is:0.000670
+attention_output
+Average gap is:0.040370
+attention_scores
+Average gap is:0.010444
+attention_output
+Average gap is:0.219386
+[3] 0.16000 0.20000
+bound_input
+Average gap is:0.012414
+attention_scores
+Average gap is:0.000593
+attention_output
+Average gap is:0.036004
+attention_scores
+Average gap is:0.008987
+attention_output
+Average gap is:0.188425
+[3] 0.16000 0.18000
+bound_input
+Average gap is:0.011724
+attention_scores
+Average gap is:0.000556
+attention_output
+Average gap is:0.033828
+attention_scores
+Average gap is:0.008292
+attention_output
+Average gap is:0.174076
+[3] 0.17000 0.18000
+bound_input
+Average gap is:0.012069
+attention_scores
+Average gap is:0.000575
+attention_output
+Average gap is:0.034915
+attention_scores
+Average gap is:0.008636
+attention_output
+Average gap is:0.181146
+[3] 0.17000 0.17500
+bound_input
+Average gap is:0.011897
+attention_scores
+Average gap is:0.000565
+attention_output
+Average gap is:0.034372
+attention_scores
+Average gap is:0.008463
+attention_output
+Average gap is:0.177584
+[3] 0.17000 0.17250
+bound_input
+Average gap is:0.011810
+attention_scores
+Average gap is:0.000561
+attention_output
+Average gap is:0.034100
+attention_scores
+Average gap is:0.008378
+attention_output
+Average gap is:0.175824
+[3] 0.17000 0.17125
+bound_input
+Average gap is:0.011767
+attention_scores
+Average gap is:0.000558
+attention_output
+Average gap is:0.033964
+attention_scores
+Average gap is:0.008335
+attention_output
+Average gap is:0.174948
+[3] 0.17000 0.17062
+bound_input
+Average gap is:0.011746
+attention_scores
+Average gap is:0.000557
+attention_output
+Average gap is:0.033896
+attention_scores
+Average gap is:0.008313
+attention_output
+Average gap is:0.174512
+[3] 0.17000 0.17031
+bound_input
+Average gap is:0.011735
+attention_scores
+Average gap is:0.000557
+attention_output
+Average gap is:0.033862
+attention_scores
+Average gap is:0.008303
+attention_output
+Average gap is:0.174294
+[3] 0.17016 0.17031
+Position 3: , 0.17016 
+Time elapsed 888.5461156368256 
+Sample 11 
+tokens: [CLS] an enjoyable film for the family , amusing and cute for both adults and kids . [SEP] 
+length: 18 
+label: 1 
+1 0.00000 0.64000
+bound_input
+Average gap is:0.071111
+attention_scores
+Average gap is:0.006289
+attention_output
+Average gap is:0.199335
+attention_scores
+Average gap is:0.220212
+attention_output
+Average gap is:11.479671
+[1] 0.00000 0.32000
+bound_input
+Average gap is:0.035556
+attention_scores
+Average gap is:0.002413
+attention_output
+Average gap is:0.083947
+attention_scores
+Average gap is:0.076266
+attention_output
+Average gap is:0.503768
+[1] 0.32000 0.64000
+bound_input
+Average gap is:0.053333
+attention_scores
+Average gap is:0.004166
+attention_output
+Average gap is:0.137173
+attention_scores
+Average gap is:0.136834
+attention_output
+Average gap is:1.216680
+[1] 0.48000 0.64000
+bound_input
+Average gap is:0.062222
+attention_scores
+Average gap is:0.005182
+attention_output
+Average gap is:0.166887
+attention_scores
+Average gap is:0.175000
+attention_output
+Average gap is:2.586240
+[1] 0.56000 0.64000
+bound_input
+Average gap is:0.066667
+attention_scores
+Average gap is:0.005724
+attention_output
+Average gap is:0.182718
+attention_scores
+Average gap is:0.196590
+attention_output
+Average gap is:4.802306
+[1] 0.56000 0.60000
+bound_input
+Average gap is:0.064444
+attention_scores
+Average gap is:0.005450
+attention_output
+Average gap is:0.174717
+attention_scores
+Average gap is:0.185575
+attention_output
+Average gap is:3.427822
+[1] 0.58000 0.60000
+bound_input
+Average gap is:0.065556
+attention_scores
+Average gap is:0.005586
+attention_output
+Average gap is:0.178694
+attention_scores
+Average gap is:0.191023
+attention_output
+Average gap is:4.026885
+[1] 0.59000 0.60000
+bound_input
+Average gap is:0.066111
+attention_scores
+Average gap is:0.005655
+attention_output
+Average gap is:0.180700
+attention_scores
+Average gap is:0.193791
+attention_output
+Average gap is:4.389048
+[1] 0.59000 0.59500
+bound_input
+Average gap is:0.065833
+attention_scores
+Average gap is:0.005620
+attention_output
+Average gap is:0.179696
+attention_scores
+Average gap is:0.192404
+attention_output
+Average gap is:4.202059
+[1] 0.59250 0.59500
+bound_input
+Average gap is:0.065972
+attention_scores
+Average gap is:0.005638
+attention_output
+Average gap is:0.180198
+attention_scores
+Average gap is:0.193097
+attention_output
+Average gap is:4.294018
+[1] 0.59250 0.59375
+bound_input
+Average gap is:0.065903
+attention_scores
+Average gap is:0.005629
+attention_output
+Average gap is:0.179947
+attention_scores
+Average gap is:0.192750
+attention_output
+Average gap is:4.247661
+[1] 0.59250 0.59313
+bound_input
+Average gap is:0.065868
+attention_scores
+Average gap is:0.005625
+attention_output
+Average gap is:0.179821
+attention_scores
+Average gap is:0.192577
+attention_output
+Average gap is:4.224766
+[1] 0.59250 0.59281
+Position 1: an 0.59250 
+2 0.00000 0.64000
+bound_input
+Average gap is:0.071111
+attention_scores
+Average gap is:0.006076
+attention_output
+Average gap is:0.193489
+attention_scores
+Average gap is:0.209774
+attention_output
+Average gap is:7.321094
+[2] 0.00000 0.32000
+bound_input
+Average gap is:0.035556
+attention_scores
+Average gap is:0.002329
+attention_output
+Average gap is:0.080133
+attention_scores
+Average gap is:0.071738
+attention_output
+Average gap is:0.448282
+[2] 0.32000 0.64000
+bound_input
+Average gap is:0.053333
+attention_scores
+Average gap is:0.004020
+attention_output
+Average gap is:0.132458
+attention_scores
+Average gap is:0.129835
+attention_output
+Average gap is:1.032371
+[2] 0.48000 0.64000
+bound_input
+Average gap is:0.062222
+attention_scores
+Average gap is:0.005002
+attention_output
+Average gap is:0.161689
+attention_scores
+Average gap is:0.166496
+attention_output
+Average gap is:1.997807
+[2] 0.56000 0.64000
+bound_input
+Average gap is:0.066667
+attention_scores
+Average gap is:0.005528
+attention_output
+Average gap is:0.177226
+attention_scores
+Average gap is:0.187201
+attention_output
+Average gap is:3.407309
+[2] 0.60000 0.64000
+bound_input
+Average gap is:0.068889
+attention_scores
+Average gap is:0.005799
+attention_output
+Average gap is:0.185255
+attention_scores
+Average gap is:0.198226
+attention_output
+Average gap is:4.832983
+[2] 0.62000 0.64000
+bound_input
+Average gap is:0.070000
+attention_scores
+Average gap is:0.005937
+attention_output
+Average gap is:0.189345
+attention_scores
+Average gap is:0.203925
+attention_output
+Average gap is:5.897068
+[2] 0.63000 0.64000
+bound_input
+Average gap is:0.070556
+attention_scores
+Average gap is:0.006006
+attention_output
+Average gap is:0.191408
+attention_scores
+Average gap is:0.206823
+attention_output
+Average gap is:6.555995
+[2] 0.63500 0.64000
+bound_input
+Average gap is:0.070833
+attention_scores
+Average gap is:0.006041
+attention_output
+Average gap is:0.192445
+attention_scores
+Average gap is:0.208286
+attention_output
+Average gap is:6.923844
+[2] 0.63750 0.64000
+bound_input
+Average gap is:0.070972
+attention_scores
+Average gap is:0.006059
+attention_output
+Average gap is:0.192965
+attention_scores
+Average gap is:0.209020
+attention_output
+Average gap is:7.118322
+[2] 0.63875 0.64000
+bound_input
+Average gap is:0.071042
+attention_scores
+Average gap is:0.006067
+attention_output
+Average gap is:0.193229
+attention_scores
+Average gap is:0.209406
+attention_output
+Average gap is:7.219149
+[2] 0.63875 0.63938
+bound_input
+Average gap is:0.071007
+attention_scores
+Average gap is:0.006063
+attention_output
+Average gap is:0.193099
+attention_scores
+Average gap is:0.209222
+attention_output
+Average gap is:7.168900
+[2] 0.63875 0.63906
+Position 2: enjoyable 0.63875 
+3 0.00000 0.64000
+bound_input
+Average gap is:0.071111
+attention_scores
+Average gap is:0.006258
+attention_output
+Average gap is:0.199958
+attention_scores
+Average gap is:0.219563
+attention_output
+Average gap is:11.879440
+[3] 0.00000 0.32000
+bound_input
+Average gap is:0.035556
+attention_scores
+Average gap is:0.002398
+attention_output
+Average gap is:0.084338
+attention_scores
+Average gap is:0.075993
+attention_output
+Average gap is:0.501359
+[3] 0.32000 0.64000
+bound_input
+Average gap is:0.053333
+attention_scores
+Average gap is:0.004144
+attention_output
+Average gap is:0.137763
+attention_scores
+Average gap is:0.136522
+attention_output
+Average gap is:1.223923
+[3] 0.48000 0.64000
+bound_input
+Average gap is:0.062222
+attention_scores
+Average gap is:0.005155
+attention_output
+Average gap is:0.167497
+attention_scores
+Average gap is:0.174544
+attention_output
+Average gap is:2.635056
+[3] 0.56000 0.64000
+bound_input
+Average gap is:0.066667
+attention_scores
+Average gap is:0.005695
+attention_output
+Average gap is:0.183330
+attention_scores
+Average gap is:0.196032
+attention_output
+Average gap is:4.936640
+[3] 0.56000 0.60000
+bound_input
+Average gap is:0.064444
+attention_scores
+Average gap is:0.005422
+attention_output
+Average gap is:0.175326
+attention_scores
+Average gap is:0.185061
+attention_output
+Average gap is:3.508357
+[3] 0.58000 0.60000
+bound_input
+Average gap is:0.065556
+attention_scores
+Average gap is:0.005558
+attention_output
+Average gap is:0.179305
+attention_scores
+Average gap is:0.190488
+attention_output
+Average gap is:4.130608
+[3] 0.59000 0.60000
+bound_input
+Average gap is:0.066111
+attention_scores
+Average gap is:0.005626
+attention_output
+Average gap is:0.181312
+attention_scores
+Average gap is:0.193245
+attention_output
+Average gap is:4.506999
+[3] 0.59000 0.59500
+bound_input
+Average gap is:0.065833
+attention_scores
+Average gap is:0.005592
+attention_output
+Average gap is:0.180307
+attention_scores
+Average gap is:0.191863
+attention_output
+Average gap is:4.312697
+[3] 0.59250 0.59500
+bound_input
+Average gap is:0.065972
+attention_scores
+Average gap is:0.005609
+attention_output
+Average gap is:0.180809
+attention_scores
+Average gap is:0.192553
+attention_output
+Average gap is:4.408294
+[3] 0.59375 0.59500
+bound_input
+Average gap is:0.066042
+attention_scores
+Average gap is:0.005618
+attention_output
+Average gap is:0.181060
+attention_scores
+Average gap is:0.192899
+attention_output
+Average gap is:4.457289
+[3] 0.59438 0.59500
+bound_input
+Average gap is:0.066076
+attention_scores
+Average gap is:0.005622
+attention_output
+Average gap is:0.181186
+attention_scores
+Average gap is:0.193072
+attention_output
+Average gap is:4.482086
+[3] 0.59469 0.59500
+Position 3: film 0.59469 
+Time elapsed 292.86524415016174 
+Sample 12 
+tokens: [CLS] not everything works , but the average is higher than in mary and most other recent comedies . [SEP] 
+length: 20 
+label: 1 
+1 0.00000 0.64000
+attack succesfully!
+[1] 0.00000 0.32000
+bound_input
+Average gap is:0.032000
+attention_scores
+Average gap is:0.001941
+attention_output
+Average gap is:0.091513
+attention_scores
+Average gap is:0.045497
+attention_output
+Average gap is:0.623940
+[1] 0.32000 0.64000
+attack succesfully!
+[1] 0.32000 0.48000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002606
+attention_output
+Average gap is:0.118212
+attention_scores
+Average gap is:0.065040
+attention_output
+Average gap is:0.950204
+[1] 0.32000 0.40000
+bound_input
+Average gap is:0.036000
+attention_scores
+Average gap is:0.002264
+attention_output
+Average gap is:0.104695
+attention_scores
+Average gap is:0.054786
+attention_output
+Average gap is:0.765938
+[1] 0.32000 0.36000
+bound_input
+Average gap is:0.034000
+attention_scores
+Average gap is:0.002100
+attention_output
+Average gap is:0.098063
+attention_scores
+Average gap is:0.050024
+attention_output
+Average gap is:0.690610
+[1] 0.32000 0.34000
+bound_input
+Average gap is:0.033000
+attention_scores
+Average gap is:0.002020
+attention_output
+Average gap is:0.094777
+attention_scores
+Average gap is:0.047731
+attention_output
+Average gap is:0.656073
+[1] 0.33000 0.34000
+bound_input
+Average gap is:0.033500
+attention_scores
+Average gap is:0.002060
+attention_output
+Average gap is:0.096418
+attention_scores
+Average gap is:0.048870
+attention_output
+Average gap is:0.673042
+[1] 0.33500 0.34000
+bound_input
+Average gap is:0.033750
+attention_scores
+Average gap is:0.002080
+attention_output
+Average gap is:0.097240
+attention_scores
+Average gap is:0.049446
+attention_output
+Average gap is:0.681752
+[1] 0.33500 0.33750
+bound_input
+Average gap is:0.033625
+attention_scores
+Average gap is:0.002070
+attention_output
+Average gap is:0.096829
+attention_scores
+Average gap is:0.049158
+attention_output
+Average gap is:0.677379
+[1] 0.33500 0.33625
+bound_input
+Average gap is:0.033563
+attention_scores
+Average gap is:0.002065
+attention_output
+Average gap is:0.096623
+attention_scores
+Average gap is:0.049014
+attention_output
+Average gap is:0.675206
+[1] 0.33500 0.33562
+bound_input
+Average gap is:0.033531
+attention_scores
+Average gap is:0.002063
+attention_output
+Average gap is:0.096521
+attention_scores
+Average gap is:0.048942
+attention_output
+Average gap is:0.674123
+[1] 0.33531 0.33562
+Position 1: not 0.33531 
+2 0.00000 0.64000
+attack succesfully!
+[2] 0.00000 0.32000
+bound_input
+Average gap is:0.032000
+attention_scores
+Average gap is:0.001955
+attention_output
+Average gap is:0.091437
+attention_scores
+Average gap is:0.045794
+attention_output
+Average gap is:0.619747
+[2] 0.32000 0.64000
+attack succesfully!
+[2] 0.32000 0.48000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002628
+attention_output
+Average gap is:0.118035
+attention_scores
+Average gap is:0.065277
+attention_output
+Average gap is:0.945658
+[2] 0.32000 0.40000
+bound_input
+Average gap is:0.036000
+attention_scores
+Average gap is:0.002282
+attention_output
+Average gap is:0.104569
+attention_scores
+Average gap is:0.055068
+attention_output
+Average gap is:0.763272
+[2] 0.32000 0.36000
+bound_input
+Average gap is:0.034000
+attention_scores
+Average gap is:0.002116
+attention_output
+Average gap is:0.097964
+attention_scores
+Average gap is:0.050318
+attention_output
+Average gap is:0.687129
+[2] 0.32000 0.34000
+bound_input
+Average gap is:0.033000
+attention_scores
+Average gap is:0.002035
+attention_output
+Average gap is:0.094690
+attention_scores
+Average gap is:0.048028
+attention_output
+Average gap is:0.652312
+[2] 0.33000 0.34000
+bound_input
+Average gap is:0.033500
+attention_scores
+Average gap is:0.002075
+attention_output
+Average gap is:0.096325
+attention_scores
+Average gap is:0.049166
+attention_output
+Average gap is:0.669422
+[2] 0.33000 0.33500
+bound_input
+Average gap is:0.033250
+attention_scores
+Average gap is:0.002055
+attention_output
+Average gap is:0.095507
+attention_scores
+Average gap is:0.048596
+attention_output
+Average gap is:0.660792
+[2] 0.33000 0.33250
+bound_input
+Average gap is:0.033125
+attention_scores
+Average gap is:0.002045
+attention_output
+Average gap is:0.095099
+attention_scores
+Average gap is:0.048312
+attention_output
+Average gap is:0.656534
+[2] 0.33125 0.33250
+bound_input
+Average gap is:0.033188
+attention_scores
+Average gap is:0.002050
+attention_output
+Average gap is:0.095303
+attention_scores
+Average gap is:0.048453
+attention_output
+Average gap is:0.658657
+[2] 0.33187 0.33250
+bound_input
+Average gap is:0.033219
+attention_scores
+Average gap is:0.002052
+attention_output
+Average gap is:0.095405
+attention_scores
+Average gap is:0.048525
+attention_output
+Average gap is:0.659723
+[2] 0.33219 0.33250
+Position 2: everything 0.33219 
+3 0.00000 0.64000
+attack succesfully!
+[3] 0.00000 0.32000
+bound_input
+Average gap is:0.032000
+attention_scores
+Average gap is:0.001906
+attention_output
+Average gap is:0.088636
+attention_scores
+Average gap is:0.042980
+attention_output
+Average gap is:0.569632
+[3] 0.32000 0.64000
+bound_input
+Average gap is:0.048000
+attention_scores
+Average gap is:0.003291
+attention_output
+Average gap is:0.143219
+attention_scores
+Average gap is:0.084268
+attention_output
+Average gap is:1.316901
+[3] 0.32000 0.48000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002562
+attention_output
+Average gap is:0.115190
+attention_scores
+Average gap is:0.061636
+attention_output
+Average gap is:0.859299
+[3] 0.32000 0.40000
+bound_input
+Average gap is:0.036000
+attention_scores
+Average gap is:0.002225
+attention_output
+Average gap is:0.101746
+attention_scores
+Average gap is:0.051854
+attention_output
+Average gap is:0.696771
+[3] 0.32000 0.36000
+bound_input
+Average gap is:0.034000
+attention_scores
+Average gap is:0.002063
+attention_output
+Average gap is:0.095151
+attention_scores
+Average gap is:0.047307
+attention_output
+Average gap is:0.629078
+[3] 0.34000 0.36000
+bound_input
+Average gap is:0.035000
+attention_scores
+Average gap is:0.002143
+attention_output
+Average gap is:0.098439
+attention_scores
+Average gap is:0.049553
+attention_output
+Average gap is:0.661750
+[3] 0.35000 0.36000
+bound_input
+Average gap is:0.035500
+attention_scores
+Average gap is:0.002184
+attention_output
+Average gap is:0.100090
+attention_scores
+Average gap is:0.050696
+attention_output
+Average gap is:0.678939
+[3] 0.35000 0.35500
+bound_input
+Average gap is:0.035250
+attention_scores
+Average gap is:0.002164
+attention_output
+Average gap is:0.099264
+attention_scores
+Average gap is:0.050123
+attention_output
+Average gap is:0.670276
+[3] 0.35000 0.35250
+bound_input
+Average gap is:0.035125
+attention_scores
+Average gap is:0.002153
+attention_output
+Average gap is:0.098851
+attention_scores
+Average gap is:0.049837
+attention_output
+Average gap is:0.665992
+[3] 0.35125 0.35250
+bound_input
+Average gap is:0.035188
+attention_scores
+Average gap is:0.002159
+attention_output
+Average gap is:0.099058
+attention_scores
+Average gap is:0.049980
+attention_output
+Average gap is:0.668124
+[3] 0.35187 0.35250
+bound_input
+Average gap is:0.035219
+attention_scores
+Average gap is:0.002161
+attention_output
+Average gap is:0.099161
+attention_scores
+Average gap is:0.050051
+attention_output
+Average gap is:0.669203
+[3] 0.35219 0.35250
+Position 3: works 0.35219 
+Time elapsed 331.3637080192566 
+Sample 13 
+tokens: [CLS] matthew mcc ##ona ##ugh ##ey tries , and fails , to control the screen with sw ##agger ##ing mach ##ism ##o and over - the - top luna ##cy . [SEP] 
+length: 32 
+label: 0 
+1 0.00000 0.64000
+bound_input
+Average gap is:0.040000
+attention_scores
+Average gap is:0.002536
+attention_output
+Average gap is:0.128674
+attention_scores
+Average gap is:0.076059
+attention_output
+Average gap is:2.129186
+[1] 0.00000 0.32000
+bound_input
+Average gap is:0.020000
+attention_scores
+Average gap is:0.001036
+attention_output
+Average gap is:0.058955

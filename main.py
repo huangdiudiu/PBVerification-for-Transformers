@@ -23,9 +23,9 @@ tf.disable_v2_behavior()
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-if not "CUDA_VISIBLE_DEVICES" in os.environ:
-    os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
-
+# if not "CUDA_VISIBLE_DEVICES" in os.environ:
+#     os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
+CUDA_VISIBLE_DEVICES=""
 
 
 

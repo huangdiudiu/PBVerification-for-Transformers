@@ -182,12 +182,10 @@ class EdgeInput(Edge):
             if self.perturbed_words == 2:
                 assert(type(self.index) == list)
                 dim = lw.shape[2]
-                if torch.cuda.is_available():
-                    self.controller.final_lw = torch.zeros(lw.shape[0], lw.shape[1], dim * 2).cuda()
-                    self.controller.final_uw = torch.zeros(lw.shape[0], lw.shape[1], dim * 2).cuda()
-                else:
-                    self.controller.final_lw = torch.zeros(lw.shape[0], lw.shape[1], dim * 2)
-                    self.controller.final_uw = torch.zeros(lw.shape[0], lw.shape[1], dim * 2)
+
+                self.controller.final_lw = torch.zeros(lw.shape[0], lw.shape[1], dim * 2).to(device)
+                self.controller.final_uw = torch.zeros(lw.shape[0], lw.shape[1], dim * 2).to(device)
+
                 self.controller.final_lw[self.index[0], :, :dim] = lw[self.index[0], :, :]
                 self.controller.final_uw[self.index[0], :, :dim] = lw[self.index[0], :, :]
                 self.controller.final_lw[self.index[1], :, dim:] = lw[self.index[1], :, :]
@@ -196,12 +194,10 @@ class EdgeInput(Edge):
                 _ub = torch.sum(self.embeddings.unsqueeze(1) * uw, dim=-1)
             elif self.perturbed_words == 1:
                 assert(type(self.index) == int)
-                if torch.cuda.is_available():
-                    self.controller.final_lw = torch.zeros(lw.shape[0], lw.shape[1], lw.shape[2]).cuda()
-                    self.controller.final_uw = torch.zeros(lw.shape[0], lw.shape[1], lw.shape[2]).cuda()
-                else:
-                    self.controller.final_lw = torch.zeros(lw.shape[0], lw.shape[1], lw.shape[2])
-                    self.controller.final_uw = torch.zeros(lw.shape[0], lw.shape[1], lw.shape[2])
+
+                self.controller.final_lw = torch.zeros(lw.shape[0], lw.shape[1], lw.shape[2]).to(device)
+                self.controller.final_uw = torch.zeros(lw.shape[0], lw.shape[1], lw.shape[2]).to(device)
+
                 self.controller.final_lw[self.index, :, :] = lw[self.index, :, :]
                 self.controller.final_uw[self.index, :, :] = uw[self.index, :, :]
                 _lb = torch.sum(self.embeddings.unsqueeze(1) * lw, dim=-1)
@@ -1221,27 +1217,27 @@ class EdgeDotProduct(Edge):
         if device is None:
             device = self.args.device
         if self.opt_able:
-            print(self.version)
+            #print(self.version)
             if self.version=="originPlus":
                 self.X0_1_opt = self.X0_1_opt.clone().detach().to(device)
                 self.X0_1_opt.requires_grad_()
-                # self.X1_1_opt = self.X0_1_opt.clone().detach().to(device)
-                # self.X1_1_opt.requires_grad_()
+                self.X1_1_opt = self.X0_1_opt.clone().detach().to(device)
+                self.X1_1_opt.requires_grad_()
                 self.controller.opt_vars.append(self.X0_1_opt)
-                # self.controller.opt_vars.append(self.X1_1_opt)
+                self.controller.opt_vars.append(self.X1_1_opt)
             else:
                 self.X0_1_opt=self.X0_1_opt.clone().detach().to(device)
                 self.X0_2_opt =self.X0_2_opt.clone().detach().to(device)
                 self.X0_1_opt.requires_grad_()
                 self.X0_2_opt.requires_grad_()
-                # self.X1_1_opt=self.X1_1_opt.clone().detach().to(device)
-                # self.X1_2_opt =self.X1_2_opt.clone().detach().to(device)
-                # self.X1_1_opt.requires_grad_()
-                # self.X1_2_opt.requires_grad_()
+                self.X1_1_opt=self.X1_1_opt.clone().detach().to(device)
+                self.X1_2_opt =self.X1_2_opt.clone().detach().to(device)
+                self.X1_1_opt.requires_grad_()
+                self.X1_2_opt.requires_grad_()
                 self.controller.opt_vars.append(self.X0_1_opt)
                 self.controller.opt_vars.append(self.X0_2_opt)
-                # self.controller.opt_vars.append(self.X1_1_opt)
-                # self.controller.opt_vars.append(self.X1_2_opt)
+                self.controller.opt_vars.append(self.X1_1_opt)
+                self.controller.opt_vars.append(self.X1_2_opt)
         self.a.need_pass_buffer()
         self.b.need_pass_buffer()
 class EdgeTranspose(Edge):
@@ -1389,10 +1385,8 @@ class EdgeTanh(EdgeActivation):
         diff = lambda d: (torch.tanh(self.par.u) - torch.tanh(d)) / (self.par.u - d + epsilon) - dtanh(d)
         d = self.par.l / 2
         _l = self.par.l
-        if torch.cuda.is_available():
-            _u = torch.zeros(self.par.l.shape).cuda()
-        else:
-            _u = torch.zeros(self.par.l.shape)
+
+        _u = torch.zeros(self.par.l.shape).to(d.device)
         for t in range(max_iter):
             v = diff(d)
             mask_p = torch.gt(v, 0).to(torch.float)
@@ -1405,10 +1399,8 @@ class EdgeTanh(EdgeActivation):
         # upper bound for both
         diff = lambda d: (torch.tanh(d) - torch.tanh(self.par.l))/ (d - self.par.l + epsilon) - dtanh(d)
         d = self.par.u / 2
-        if torch.cuda.is_available():
-            _l = torch.zeros(self.par.l.shape).cuda()
-        else:
-            _l = torch.zeros(self.par.l.shape)
+        _l = torch.zeros(self.par.l.shape).to(d.device)
+
         _u = self.par.u
         for t in range(max_iter):
             v = diff(d)

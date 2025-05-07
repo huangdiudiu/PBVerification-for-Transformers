@@ -26,7 +26,9 @@ def project_onto_p_ball(delta, p, radius):
 class Verifier:
     def __init__(self, args, target, logger):
         self.args = args
-        self.device = args.device        
+        self.device = args.device
+        #self.device=torch.device("cpu")
+        print(self.device)
         self.target = target
         self.logger = logger
         self.res = args.res

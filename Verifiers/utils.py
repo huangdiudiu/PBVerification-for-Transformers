@@ -5,6 +5,11 @@ import torch
 import math
 from Verifiers.Bounds import Bounds,cvx
 import numpy as np
+
+def avg_bound(layer):
+    print("Average gap is:{:.6f}".format((layer.u-layer.l).mean().item()))
+
+
 def check(name, bounds=None, l=None, u=None, std=None, verbose=False):
     if verbose:
         print("Check ", name)
