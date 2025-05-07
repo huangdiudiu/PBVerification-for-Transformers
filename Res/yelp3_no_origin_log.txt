@@ -1,0 +1,163 @@
+Sample 0 
+tokens: [CLS] simply awful . . long line and wait and terrible food . if i wanted a french fry [SEP] 
+length: 20 
+label: 0 
+Position 1: simply 0.15047 
+Position 2: awful 0.13656 
+Position 3: . 0.15203 
+Time elapsed 504.45689845085144 
+Sample 1 
+tokens: [CLS] i will never come here again . . . horrible service and mediocre cupcakes . the lady behind [SEP] 
+length: 20 
+label: 0 
+Position 1: i 0.15086 
+Position 2: will 0.14828 
+Position 3: never 0.17594 
+Time elapsed 422.54632019996643 
+Sample 2 
+tokens: [CLS] do not eat here . terrible . [SEP] 
+length: 9 
+label: 0 
+Position 1: do 0.10688 
+Position 2: not 0.10672 
+Position 3: eat 0.10117 
+Time elapsed 80.47061228752136 
+Sample 3 
+tokens: [CLS] great anniversary dinner . just ##if ##ia ##bly recommended by our friends . lovely and decadent . we [SEP] 
+length: 20 
+label: 1 
+Position 1: great 0.15078 
+Position 2: anniversary 0.17703 
+Position 3: dinner 0.19813 
+Time elapsed 427.04489374160767 
+Sample 4 
+tokens: [CLS] the room is actually ok . i got to stay there one night with very cheap price . [SEP] 
+length: 20 
+label: 0 
+Position 1: the 0.11727 
+Position 2: room 0.11898 
+Position 3: is 0.12609 
+Time elapsed 426.7922315597534 
+Sample 5 
+tokens: [CLS] diner food done at a typical diner level . [SEP] 
+length: 11 
+label: 0 
+Position 1: diner 0.06176 
+Position 2: food 0.08641 
+Position 3: done 0.08766 
+Time elapsed 100.07142567634583 
+Sample 6 
+tokens: [CLS] i like this place . i really do ( i ' m giving it four star after all [SEP] 
+length: 20 
+label: 1 
+Position 1: i 0.08789 
+Position 2: like 0.11945 
+Position 3: this 0.13164 
+Time elapsed 427.0125513076782 
+Sample 7 
+tokens: [CLS] a few weeks ago i was in the phoenix area and found bagel nosh on yelp . their [SEP] 
+length: 20 
+label: 1 
+Position 1: a 0.11703 
+Position 2: few 0.11250 
+Position 3: weeks 0.16234 
+Time elapsed 414.6294615268707 
+Sample 8 
+tokens: [CLS] this place serves the best boba tea in the valley . [SEP] 
+length: 13 
+label: 1 
+Position 1: this 0.12789 
+Position 2: place 0.12555 
+Position 3: serves 0.14484 
+Time elapsed 132.88439631462097 
+Sample 9 
+tokens: [CLS] best torta i ' ve ever had . [SEP] 
+length: 10 
+label: 1 
+Position 1: best 0.15555 
+Position 2: torta 0.15297 
+Position 3: i 0.14789 
+Time elapsed 88.60797715187073 
+Sample 10 
+tokens: [CLS] good food and good service . indoor was a bit dark [SEP] 
+length: 13 
+label: 1 
+Position 1: good 0.11602 
+Position 2: food 0.14414 
+Position 3: and 0.13180 
+Time elapsed 133.27394700050354 
+Sample 11 
+tokens: [CLS] my wife and i decided to try il vino cu ##cina and wine bar at ali ##ante station [SEP] 
+length: 20 
+label: 1 
+Position 1: my 0.11289 
+Position 2: wife 0.11211 
+Position 3: and 0.12945 
+Time elapsed 413.6458683013916 
+Sample 12 
+tokens: [CLS] get the salad ! they have the best salad ever . i ' ve gotten take out several [SEP] 
+length: 20 
+label: 1 
+Position 1: get 0.12711 
+Position 2: the 0.12844 
+Position 3: salad 0.15109 
+Time elapsed 412.81333589553833 
+Sample 13 
+tokens: [CLS] solid buffet . hated the line , but that just means it ' s worth waiting for . [SEP] 
+length: 20 
+label: 1 
+Position 1: solid 0.07984 
+Position 2: buffet 0.07277 
+Position 3: . 0.07301 
+Time elapsed 413.5780429840088 
+Sample 14 
+tokens: [CLS] went 4 the seafood buffet on friday . extremely disappointed , should have been called crab leg buffet [SEP] 
+length: 20 
+label: 0 
+Position 1: went 0.08875 
+Position 2: 4 0.08922 
+Position 3: the 0.09922 
+Time elapsed 390.67514276504517 
+Sample 15 
+tokens: [CLS] when you move to a new town , some of the biggest challenges are finding an honest mechanic [SEP] 
+length: 20 
+label: 1 
+Position 1: when 0.11695 
+Position 2: you 0.11492 
+Position 3: move 0.16672 
+Time elapsed 435.35806584358215 
+Sample 16 
+tokens: [CLS] very pleasantly surprised ! we had driven by many , many times wondering what exactly could fit in [SEP] 
+length: 20 
+label: 1 
+Position 1: very 0.20359 
+Position 2: pleasantly 0.15141 
+Position 3: surprised 0.21031 
+Time elapsed 424.720312833786 
+Sample 17 
+tokens: [CLS] this is another one of those little specialty gift stores that stock sets apart . it is truly [SEP] 
+length: 20 
+label: 1 
+Position 1: this 0.13180 
+Position 2: is 0.12078 
+Position 3: another 0.18500 
+Time elapsed 413.04562520980835 
+Sample 18 
+tokens: [CLS] this was our first time to metro , actually by default , we had tried to go to [SEP] 
+length: 20 
+label: 1 
+Position 1: this 0.11156 
+Position 2: was 0.11070 
+Position 3: our 0.15430 
+Time elapsed 412.5488820075989 
+Sample 19 
+tokens: [CLS] bento box for 2 is a great deal ! i have dined at sushi twist ##er for long [SEP] 
+length: 20 
+label: 1 
+Position 1: bento 0.11266 
+Position 2: box 0.15039 
+Position 3: for 0.16312 
+Time elapsed 412.65071630477905 
+20 valid examples 
+Minimum: 0.11584 
+Average: 0.12998 
