@@ -49,6 +49,8 @@ class VerifierBackward(Verifier):
         try:
             with torch.no_grad():
                 bounds = self._bound_input(embeddings, index=index, eps=eps) # hard-coded yet
+                print("bound_input")
+                avg_bound(bounds)
                 # check("embedding", l=bounds.l, u=bounds.u, std=self.std["embedding_output"][0], verbose=self.debug)
                 # check("min_std_embedding", l=bounds.l, u=bounds.u, std=self.min_std["embedding_output"][0], verbose=self.debug)
                 # check("max_std_embedding", l=bounds.l, u=bounds.u, std=self.max_std["embedding_output"][0], verbose=self.debug)
@@ -68,6 +70,10 @@ class VerifierBackward(Verifier):
                         QK_output["out"]=QK_output["out"].squeeze(0).cpu().numpy()
 
                     attention_scores, attention_probs, bounds = self._bound_layer(bounds, layer,QK_output=QK_output)
+                    print("attention_scores")
+                    avg_bound(attention_scores)
+                    print("attention_output")
+                    avg_bound(bounds)
                     """
                     std = self.std["attention_scores"][i][0]
                     std = std.transpose(0, 1).reshape(1,std.shape[1], -1)
@@ -205,7 +211,6 @@ class VerifierBackward(Verifier):
             attention_scores, attention_probs, attention = self._bound_attention(
                 bounds_input, layer.attention,QK_output=QK_output)
         #=======================================
-
         # ==============================================
 
         attention = attention.next(EdgeDense(self.args, self.controller, attention, dense=layer.attention.output.dense))
@@ -239,6 +244,7 @@ class VerifierBackward(Verifier):
         return attention_scores, attention_probs, output
 
     def _bound_attention_hybrid(self, bounds_input, attention, QK_output=None):
+        #print("_bound_attention_hybrid")
         num_attention_heads = attention.self.num_attention_heads
         attention_head_size = attention.self.attention_head_size
         query = bounds_input.next(EdgeDense(self.args, self.controller, bounds_input, dense=attention.self.query))
@@ -822,7 +828,7 @@ class VerifierBackward(Verifier):
         classifier = copy.deepcopy(classifier)
         classifier.weight[0, :] -= classifier.weight[1, :]
         classifier.bias[0] -= classifier.bias[1]
-        if self.args.version == "bilinear":
+        if self.args.version in["originPlus","bilinear","hybrid"]:
             if self.args.AuxDev:
                 AuxDevice="cuda:1"
             else:

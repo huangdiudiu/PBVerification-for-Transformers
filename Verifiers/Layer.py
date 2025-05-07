@@ -129,7 +129,7 @@ class Layer:
         # best_final_lb,best_final_ub=self.final_lb, self.final_ub
         # best_opt1,best_opt2=X0_1_opt.clone(), X0_2_opt.clone()
 
-        it_num=10
+        it_num=20
 
         for it in range(it_num):
 
@@ -140,12 +140,6 @@ class Layer:
             self.compute(device)
 
             _obj=(self.u-self.l).sum()
-            if it ==0 or it ==it_num-1:
-                print(_obj.item())
-            #print(_obj.item())
-
-            # if torch.allclose(_obj, best_obj, atol=1e-8):
-            #     break
 
             if _obj < best_obj:
                 best_obj = _obj.detach().clone()
@@ -170,6 +164,7 @@ class Layer:
             # self.final_lb, self.final_ub=best_final_lb.to(device), best_final_ub.to(device)
             # edge.X0_1_opt, edge.X0_2_opt=best_opt1.to(device), best_opt2.to(device)
             for a, b in zip(self.controller.opt_vars, best_opt):
+                #a.zero_()
                 a.copy_(b)
             # for var in self.controller.opt_vars:
             #     var.data.zero_()
@@ -269,9 +264,10 @@ class Layer:
         best_final_lb, best_final_ub = self.final_lb.clone(), self.final_ub.clone()
 
         best_l, best_u = self.l, self.u
-        it_num = 50
+        it_num = 30
         for it in range(it_num):
-
+            ######
+            # prev_vars = [var.detach().clone() for var in self.controller.opt_vars]
             optimizer.zero_grad()
             self.compute(device)
             if label == 0:
@@ -279,9 +275,12 @@ class Layer:
             else:
                 _obj = self.u[0][0]
 
-            print(f"{self.l[0][0].item():.7f}, {self.u[0][0].item():.7f}")
-            _obj.backward()
-            optimizer.step()
+            #print(f"{self.l[0][0].item():.7f}, {self.u[0][0].item():.7f}")
+            # for i, (prev, curr) in enumerate(zip(prev_vars, self.controller.opt_vars)):
+            #     if torch.equal(prev, curr):
+            #         print(f"Variable {i} was NOT updated.")
+            #     else:
+            #         print(f"Variable {i} was updated.")
 
             if _obj<=best_obj:
                 best_obj=_obj.clone()
@@ -289,6 +288,12 @@ class Layer:
                 bset_opt_vars=[t.clone() for t in self.controller.opt_vars]
                 best_final_lw, best_final_uw=self.final_lw.clone(), self.final_uw.clone()
                 best_final_lb, best_final_ub=self.final_lb.clone(), self.final_ub.clone()
+            if best_obj<0:
+                break
+
+            _obj.backward()
+            optimizer.step()
+
 
         #del _obj
         if self.empty_cache:
