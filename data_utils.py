@@ -150,6 +150,9 @@ def sample(args, data, target):
             # too long
             if std["embedding_output"][0].shape[0] > args.max_verify_length:
                 continue
+            # too short
+            if std["embedding_output"][0].shape[0] < 3:
+                continue
             # incorrectly classified            
             if std["pred_labels"][0] != example["label"]:
                 continue

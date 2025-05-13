@@ -1071,9 +1071,9 @@ class EdgeDotProduct(Edge):
         u_b = self.b.u.reshape(self.b.length, self.num_attention_heads, self.attention_head_size).to(device)
 
         if self.X0_1_opt is None and self.X0_2_opt is None:
-            self.X0_1_opt = torch.zeros_like(l_a).to(device)
+            self.X0_1_opt = torch.zeros_like(l_a).to(device)-4
         if self.X1_1_opt is None and self.X1_2_opt is None:
-            self.X1_1_opt = torch.zeros_like(l_a).to(device)
+            self.X1_1_opt = torch.zeros_like(l_a).to(device)-4
 
         if self.X0_1_opt.device != torch.device(device):
             self.X0_1_opt = self.X0_1_opt.to(device)

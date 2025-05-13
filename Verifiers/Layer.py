@@ -116,7 +116,7 @@ class Layer:
         # u_a=u_a.reshape(X0_1.shape)
         # l_b=l_b.reshape(X0_2.shape)
         # u_b=u_b.reshape(X0_2.shape)
-        optimizer = torch.optim.Adam(self.controller.opt_vars, lr=0.1)
+        optimizer = torch.optim.Adam(self.controller.opt_vars, lr=0.2)
         #optimizer = torch.optim.Adam([X0_1_opt,X0_2_opt], lr=0.1)
 
         best_obj = torch.tensor(float("inf"), dtype=self.l[0][0].dtype).to(device)
@@ -248,7 +248,7 @@ class Layer:
         #     var.data.zero_()
 
 
-        optimizer = torch.optim.Adam(self.controller.opt_vars, lr=0.1)
+        optimizer = torch.optim.Adam(self.controller.opt_vars, lr=0.2)
 
 
         #bset_opt_vars=self.controller.opt_vars
