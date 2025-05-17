@@ -61,6 +61,7 @@ if __name__ == '__main__':
 
         print("\n")
 
+
         if args.train:
             print("training..")
             while logger.epoch.eval() <= args.num_epoches:

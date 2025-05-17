@@ -56,6 +56,7 @@ class Verifier:
         print("{} valid examples".format(len(examples)))
         sum_avg, sum_min = 0, 0
         results = []
+        print("esp={:.5f}".format(self.max_eps))
         for i, example in enumerate(examples):
             self.logger.write("Sample", i)
             res = self.verify(example)
@@ -117,13 +118,26 @@ class Verifier:
             # TODO: redundant
             if self.perturbed_words == 1:
                 #####test###
+                # cnt += 1
+                # for i in range(1, 4): #(1, length - 1)
+                #     # skip OOV
+                #     if tokens[i][0] == "#" or tokens[i + 1][0] == "#":
+                #         continue
+                #     print("{} ########################".format(i))
+                #     safe = self.verify_safety(example, embeddings, [i], self.max_eps)
+                #     print("end ##########")
+                #     result["bounds"].append({
+                #         "position": i,
+                #         "eps": self.max_eps,
+                #         "eps_normalized": self.max_eps
+                #     })
                 #[0.25, 0.30, 0.40, 0.45]  #0.28
                 # for eps in[0.37854,0.37884]:   #0.40,0.39,0.38,0.37,0.36,0.35,0.34,0.33,0.32,0.31,0.30 0.025 0.33572
                 #     safe=self.verify_safety(example, embeddings, [1], eps) #[1,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18] #
                 #     print("eps:{:.7f} Safe:{}".format(eps,safe))
                 # exit(0)
                 ##########################
-                # warm up 
+                # warm up
                 if not self.warmed:
                     print("Warming up...")
                     while not self.verify_safety(example, embeddings, [1], self.max_eps):
@@ -143,7 +157,7 @@ class Verifier:
                     l, r = 0, self.max_eps
                     print("{} {:.5f} {:.5f}".format(i, l, r), end="\n")
                     safe = self.verify_safety(example, embeddings, [i], r)
-                    while safe: 
+                    while safe:
                         l = r
                         r *= 2
                         print("\r{} {:.5f} {:.5f}".format(i, l, r), end="\n")
@@ -174,7 +188,6 @@ class Verifier:
                         "eps": float(eps[i]),
                         "eps_normalized": float(eps[i] / norm)
                     })
-
             elif self.perturbed_words == 2:
                 # warm up 
                 if not self.warmed:
@@ -186,8 +199,10 @@ class Verifier:
                     self.warmed = True
                     print("Approximate maximum eps:", self.max_eps)
 
-                for i1 in range(1, length - 1):
-                    for i2 in range(i1 + 1, length - 1):
+                # for i1 in range(1, length - 1):
+                #     for i2 in range(i1 + 1, length - 1):
+                for i1 in range(1, 5):
+                    for i2 in range(i1 + 1, 6):
                         # skip OOV
                         if tokens[i1][0] == "#" or tokens[i1 + 1][0] == "#":
                             continue
